@@ -10,6 +10,10 @@ const auth = require('../middleware/auth')
 
 router.post('/data-pusher', auth, async (req, res) => {
     try {
+
+        if(req.body.length < 0){
+            return res.status(400).send({message: 'message required in body', ok: false})
+        }
         const connection = await amqp.connect('amqp://localhost:5672')
         const channel = await connection.createChannel()
         const QUEUE = 'dataValidator'
@@ -19,7 +23,7 @@ router.post('/data-pusher', auth, async (req, res) => {
 
         const msg = []
         req.body.forEach(element => {
-            msg.push({id: req.user._id, username: req.user.username, message: element.message, randomNumber: 10, token: req.token})
+            msg.push({id: req.user._id, username: req.user.username, message: element.message, randomNumber: randomNumber, token: req.token})
         });
         console.log(msg)
 
