@@ -17,11 +17,14 @@
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "express": "^4.17.2",
+    "joi": "^17.6.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.0",
     "redis": "^4.0.3",
     "redis-om": "^0.1.7",
-    "validator": "^13.7.0"
+    "validator": "^13.7.0",
+    "winston": "^3.6.0",
+    "winston-daily-rotate-file": "^4.6.0"
   },
   "devDependencies": {
     "env-cmd": "^8.0.2",

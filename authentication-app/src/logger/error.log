@@ -1,0 +1,10 @@
+2022-02-14T05:23:59.815Z [31merror[39m: 	register user fail User validation failed: username: Path `username` is required.
+2022-02-14T05:25:18.227Z error: 	register user fail User validation failed: username: Path `username` is required.
+2022-02-14T06:27:31.354Z error: 	register user fail User validation failed: username: Path `username` (`standxxxxxxalone`) is longer than the maximum allowed length (15).
+2022-02-14T06:36:13.529Z error: 	login user fail Invalid password
+2022-02-14T06:36:58.007Z error: 	login user fail no such Credentials exits on db
+2022-02-14T07:02:00.538Z error: 	register user fail failuer is not defined
+2022-02-14T07:02:57.105Z error: 	register user fail error is not defined
+2022-02-14T07:03:47.282Z error: 	register user fail error is not defined
+2022-02-14T07:04:26.401Z error: 	register user fail error is not defined
+2022-02-14T08:52:32.520Z error: 	login user fail no such Credentials exits on db

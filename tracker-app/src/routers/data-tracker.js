@@ -1,79 +1,78 @@
 const express = require('express')
 const router = new express.Router()
-const Message = require('../models/message')
+// const Message = require('../models/message')
+const logger = require('../logger/logger')
 const auth = require('../middleware/auth')
+// const {insertManyMessage} = require('../models/helper')
+const {insertBulkMessage, searchTextMessage, searchByCategoryAndDate} = require('../services/bussiness-logic')
+const {requestValidate} = require('../utils/payload-validation/request-validation')
+const {bulkMessageSchema} = require('../utils/validation-schema/data-tracker-validate')
+
 
 
 router.post('/data-tracker', auth, async (req, res) => {
-    // let type = typeof(req.body)
-    // console.log(type)
-    // console.log(req.body)
-    // const array = req.body.toArray()
-    // const user = new User(req.body)
-    // userId: req.user._id
-    req.body.forEach(element => {
-        element.userId = req.user._id,
-        element.requestId = req.header('CorrelationId')
-    });
+    logger.info('bulk message insert request start')
+    const reqValidateResult = requestValidate(req.body, bulkMessageSchema)
+
+    if (reqValidateResult !== true) {
+        logger.warn('validate request fail', reqValidateResult.message)
+        return res.status(400).send({error: reqValidateResult.message,  ok:false})
+    }
+
 
     try {
-        const message = await Message.insertMany(req.body, (error, result) => {
-            if (error) {
-                console.log(error)
-                return res.status(400).send({error: error._message, ok: false})  
-            }
-            res.status(201).send({result: result, ok: true})
-        })
+        logger.info('start insert business logic')
+        const bulkInsertResult = await insertBulkMessage(req)
+        console.log(bulkInsertResult);
+        if(!bulkInsertResult){
+            logger.warn('res send to user!')
+            return res.status(400).send({error: bulkInsertResult.message, ok: false})  
+        }
+        logger.info('request ended res sent')
+        res.status(bulkInsertResult.statusCode).send({result: bulkInsertResult[0], ok: true})
+
     } catch (error) {
         console.log(error)
-        res.status(400).send({error: error, ok: false})
+        logger.error('Something went wrong while processing your request.')
+        res.status(500).send({error: 'Something went wrong while processing your request.', ok: false})
     }
 })
 
 
 router.get('/data-tracker/searchmsg', auth, async (req, res) => {
-    
+    logger.info('search message request start')
     try {
-        const searchMsg = req.query.searchMsg
-        if(!searchMsg){
-            return res.send({message: 'search text required', ok: false})
+        const {success, failuer} = await searchTextMessage(req)
+        if (failuer) {
+            logger.warn('res send to user!')
+            return res.status(failuer.statusCode).send({message: failuer.message, ok: failuer.ok})
         }
-        const message = await Message.find({ "userMessage" : { $regex: searchMsg } }, {userMessage: 1})
-        if(message.length < 1){
-            return res.send({message: 'no data with this text', ok: true})
-        }
-        // console.log("message: ", message)
-        res.send({message: message, ok: true})
+        logger.info('request ended res sent')
+        res.send({message: success.message, ok: success.ok})
 
     } catch (error) {
         console.log("e: ", error)
-        res.status(400).send({error: error, ok: false})
+        logger.error('Something went wrong while processing your request.')
+        res.status(500).send({error: 'Something went wrong while processing your request.', ok: false})
     }
 })
 
 
 router.get('/data-tracker/category', auth, async (req, res) => {
-
-    // console.log("seachmsg: ", searchMsg)
+    logger.info('search message request start')
     try {
-        const category = req.query.category
-        const date = req.query.date
-        const fromDate = new Date(date)
-        const toDate = new Date(fromDate.getTime() + 86400000)
-        if (!category || !date) {
-            return res.send({message: 'category and date required.', ok: false})
+        const {success, failuer} = await searchByCategoryAndDate(req)
+        if (failuer) {
+            logger.warn('res send to user!')
+            return res.status(failuer.statusCode).send({message: failuer.message, ok: failuer.ok})
         }
-
-        const message = await Message.find({ "category" : category, "createdTime": {$gte: fromDate, $lt: toDate } }).count()
-        if(message == 0){
-            return res.send({message: 'no data with this category and date', ok: true})
-        }
-        // console.log("message: ", message)
-        res.send({message: message, ok: true})
+        logger.info('request ended res sent')
+        res.send({message: success.message, ok: success.ok})
 
     } catch (error) {
         console.log("e: ", error)
-        res.status(400).send({error: error, ok: false})
+        logger.error('Something went wrong while processing your request.')
+        res.status(500).send({error: 'Something went wrong while processing your request.', ok: false})
     }
 })
 
