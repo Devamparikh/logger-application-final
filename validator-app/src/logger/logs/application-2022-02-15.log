@@ -7,3 +7,6 @@
 2022-02-15T04:52:49.205Z info: 	making post request to track data api
 2022-02-15T04:52:49.208Z info: 	setting header!
 2022-02-15T04:52:49.217Z info: 	making post request using axios to track data api
+2022-02-15T05:10:16.491Z info: 	fetch from queue start!
+2022-02-15T05:10:16.624Z info: 	creating channel!
+2022-02-15T05:10:16.652Z info: 	assert Queue
