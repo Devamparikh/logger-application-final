@@ -1,0 +1,948 @@
+2022-02-15T06:08:16.138Z info: 	register user and validate request route start.
+2022-02-15T06:08:16.167Z warn: 	validate request fail
+2022-02-15T06:09:16.048Z info: 	register user and validate request route start.
+2022-02-15T06:09:16.080Z warn: 	validate request fail
+2022-02-15T06:09:46.656Z info: 	register user and validate request route start.
+2022-02-15T06:09:46.679Z warn: 	validate request fail
+2022-02-15T06:09:54.451Z info: 	register user and validate request route start.
+2022-02-15T06:09:54.465Z info: 	checking if similar username exist in db
+2022-02-15T06:11:32.043Z info: 	register user and validate request route start.
+2022-02-15T06:11:32.066Z info: 	checking if similar username exist in db
+2022-02-15T06:12:59.683Z info: 	register user and validate request route start.
+2022-02-15T06:12:59.711Z info: 	checking if similar username exist in db
+2022-02-15T06:12:59.841Z info: 	insert New User Query
+2022-02-15T06:12:59.844Z info: 	save New User Query
+2022-02-15T06:12:59.956Z info: 	 New User set Json Redis Query
+2022-02-15T06:12:59.960Z error: 	register user fail ERR unknown command `JSON.SET`, with args beginning with: `user_alphahere`, `.`, `{"id":"620b446bb05bbd4bc7dd0fa2","username":"alphahere","password":"$2a$08$eqhdd6zx1rlu7E/D36OvSOx4YpY4SO`, 
+2022-02-15T06:26:10.131Z info: 	register user and validate request route start.
+2022-02-15T06:26:10.152Z info: 	checking if similar username exist in db
+2022-02-15T06:26:10.254Z info: 	insert New User Query
+2022-02-15T06:26:10.257Z info: 	save New User Query
+2022-02-15T06:26:10.357Z info: 	 New User set Json Redis Query
+2022-02-15T06:26:10.372Z info: 	 generate Auth Token
+2022-02-15T06:26:10.383Z info: 	 end of request
+2022-02-15T06:26:48.290Z info: 	register user and validate request route start.
+2022-02-15T06:26:48.300Z info: 	checking if similar username exist in db
+2022-02-15T06:26:48.382Z info: 	insert New User Query
+2022-02-15T06:26:48.385Z info: 	save New User Query
+2022-02-15T06:26:48.478Z info: 	 New User set Json Redis Query
+2022-02-15T06:26:48.493Z info: 	 generate Auth Token
+2022-02-15T06:26:48.502Z info: 	 end of request
+2022-02-15T06:28:29.707Z info: 	register user and validate request route start.
+2022-02-15T06:28:29.756Z info: 	checking if similar username exist in db
+2022-02-15T06:28:29.888Z info: 	insert New User Query
+2022-02-15T06:28:29.891Z info: 	save New User Query
+2022-02-15T06:28:29.995Z info: 	 New User set Json Redis Query
+2022-02-15T06:28:30.009Z info: 	 generate Auth Token
+2022-02-15T06:28:30.018Z info: 	 end of request
+2022-02-15T06:28:30.037Z info: 	register user and validate request route start.
+2022-02-15T06:28:30.046Z info: 	checking if similar username exist in db
+2022-02-15T06:28:30.059Z warn: 	similar username exist in db
+2022-02-15T06:28:30.064Z warn: 	similar username exist in db
+2022-02-15T06:31:53.356Z info: 	register user and validate request route start.
+2022-02-15T06:31:53.364Z info: 	checking if similar username exist in db
+2022-02-15T06:31:53.445Z info: 	insert New User Query
+2022-02-15T06:31:53.448Z info: 	save New User Query
+2022-02-15T06:31:53.593Z info: 	 New User set Json Redis Query
+2022-02-15T06:31:53.608Z info: 	 generate Auth Token
+2022-02-15T06:31:53.615Z info: 	 end of request
+2022-02-15T06:31:53.630Z info: 	register user and validate request route start.
+2022-02-15T06:31:53.634Z info: 	checking if similar username exist in db
+2022-02-15T06:31:53.647Z warn: 	similar username exist in db
+2022-02-15T06:31:53.651Z warn: 	similar username exist in db
+2022-02-15T06:31:53.663Z info: 	register user and validate request route start.
+2022-02-15T06:31:53.676Z warn: 	validate request fail
+2022-02-15T06:32:37.310Z info: 	register user and validate request route start.
+2022-02-15T06:32:37.327Z info: 	checking if similar username exist in db
+2022-02-15T06:32:37.426Z info: 	insert New User Query
+2022-02-15T06:32:37.429Z info: 	save New User Query
+2022-02-15T06:32:37.537Z info: 	 New User set Json Redis Query
+2022-02-15T06:32:37.554Z info: 	 generate Auth Token
+2022-02-15T06:32:37.575Z info: 	 end of request
+2022-02-15T06:32:37.604Z info: 	register user and validate request route start.
+2022-02-15T06:32:37.611Z info: 	checking if similar username exist in db
+2022-02-15T06:32:37.626Z warn: 	similar username exist in db
+2022-02-15T06:32:37.631Z warn: 	similar username exist in db
+2022-02-15T06:32:37.643Z info: 	register user and validate request route start.
+2022-02-15T06:32:37.655Z warn: 	validate request fail
+2022-02-15T06:32:37.669Z info: 	register user and validate request route start.
+2022-02-15T06:32:37.678Z info: 	checking if similar username exist in db
+2022-02-15T06:32:37.688Z info: 	insert New User Query
+2022-02-15T06:32:37.689Z info: 	save New User Query
+2022-02-15T06:32:37.693Z error: 	register user fail User validation failed: password: Path `password` (`ahha`) is shorter than the minimum allowed length (6).
+2022-02-15T06:33:37.847Z info: 	register user and validate request route start.
+2022-02-15T06:33:37.858Z info: 	checking if similar username exist in db
+2022-02-15T06:33:37.898Z warn: 	similar username exist in db
+2022-02-15T06:33:37.902Z warn: 	similar username exist in db
+2022-02-15T06:33:45.330Z info: 	register user and validate request route start.
+2022-02-15T06:33:45.337Z info: 	checking if similar username exist in db
+2022-02-15T06:33:45.347Z info: 	insert New User Query
+2022-02-15T06:33:45.355Z info: 	save New User Query
+2022-02-15T06:33:45.377Z error: 	register user fail User validation failed: password: Path `password` (`deva`) is shorter than the minimum allowed length (6).
+2022-02-15T06:35:19.919Z info: 	register user and validate request route start.
+2022-02-15T06:35:19.954Z info: 	checking if similar username exist in db
+2022-02-15T06:35:20.159Z info: 	insert New User Query
+2022-02-15T06:35:20.161Z info: 	save New User Query
+2022-02-15T06:35:20.322Z info: 	 New User set Json Redis Query
+2022-02-15T06:35:20.337Z info: 	 generate Auth Token
+2022-02-15T06:35:20.350Z info: 	 end of request
+2022-02-15T06:35:20.387Z info: 	register user and validate request route start.
+2022-02-15T06:35:20.394Z info: 	checking if similar username exist in db
+2022-02-15T06:35:20.414Z warn: 	similar username exist in db
+2022-02-15T06:35:20.422Z warn: 	similar username exist in db
+2022-02-15T06:35:20.437Z info: 	register user and validate request route start.
+2022-02-15T06:35:20.450Z warn: 	validate request fail
+2022-02-15T06:35:20.467Z info: 	register user and validate request route start.
+2022-02-15T06:35:20.476Z warn: 	validate request fail
+2022-02-15T06:35:25.115Z info: 	register user and validate request route start.
+2022-02-15T06:35:25.143Z warn: 	validate request fail
+2022-02-15T06:37:14.128Z info: 	register user and validate request route start.
+2022-02-15T06:37:14.154Z info: 	checking if similar username exist in db
+2022-02-15T06:37:14.370Z info: 	insert New User Query
+2022-02-15T06:37:14.373Z info: 	save New User Query
+2022-02-15T06:37:14.540Z info: 	 New User set Json Redis Query
+2022-02-15T06:37:14.554Z info: 	 generate Auth Token
+2022-02-15T06:37:14.561Z info: 	 end of request
+2022-02-15T06:37:14.584Z info: 	register user and validate request route start.
+2022-02-15T06:37:14.589Z info: 	checking if similar username exist in db
+2022-02-15T06:37:14.605Z warn: 	similar username exist in db
+2022-02-15T06:37:14.610Z warn: 	similar username exist in db
+2022-02-15T06:37:14.621Z info: 	register user and validate request route start.
+2022-02-15T06:37:14.631Z warn: 	validate request fail
+2022-02-15T06:37:14.648Z info: 	register user and validate request route start.
+2022-02-15T06:37:14.654Z warn: 	validate request fail
+2022-02-15T06:37:14.671Z info: 	register user and validate request route start.
+2022-02-15T06:37:14.678Z info: 	checking if similar username exist in db
+2022-02-15T06:37:14.691Z info: 	insert New User Query
+2022-02-15T06:37:14.692Z info: 	save New User Query
+2022-02-15T06:37:14.740Z info: 	 New User set Json Redis Query
+2022-02-15T06:37:14.753Z info: 	 generate Auth Token
+2022-02-15T06:37:14.759Z info: 	 end of request
+2022-02-15T06:37:28.771Z info: 	register user and validate request route start.
+2022-02-15T06:37:28.794Z info: 	checking if similar username exist in db
+2022-02-15T06:37:29.022Z info: 	insert New User Query
+2022-02-15T06:37:29.024Z info: 	save New User Query
+2022-02-15T06:37:29.132Z info: 	 New User set Json Redis Query
+2022-02-15T06:37:29.146Z info: 	 generate Auth Token
+2022-02-15T06:37:29.154Z info: 	 end of request
+2022-02-15T06:37:29.174Z info: 	register user and validate request route start.
+2022-02-15T06:37:29.180Z info: 	checking if similar username exist in db
+2022-02-15T06:37:29.202Z warn: 	similar username exist in db
+2022-02-15T06:37:29.208Z warn: 	similar username exist in db
+2022-02-15T06:37:29.221Z info: 	register user and validate request route start.
+2022-02-15T06:37:29.229Z warn: 	validate request fail
+2022-02-15T06:37:29.240Z info: 	register user and validate request route start.
+2022-02-15T06:37:29.248Z warn: 	validate request fail
+2022-02-15T06:37:29.261Z info: 	register user and validate request route start.
+2022-02-15T06:37:29.267Z info: 	checking if similar username exist in db
+2022-02-15T06:37:29.284Z info: 	insert New User Query
+2022-02-15T06:37:29.287Z info: 	save New User Query
+2022-02-15T06:37:29.296Z error: 	register user fail User validation failed: username: Path `username` (`alpa`) is shorter than the minimum allowed length (5).
+2022-02-15T06:37:57.827Z info: 	register user and validate request route start.
+2022-02-15T06:37:57.845Z info: 	checking if similar username exist in db
+2022-02-15T06:37:57.944Z info: 	insert New User Query
+2022-02-15T06:37:57.947Z info: 	save New User Query
+2022-02-15T06:37:58.079Z info: 	 New User set Json Redis Query
+2022-02-15T06:37:58.094Z info: 	 generate Auth Token
+2022-02-15T06:37:58.101Z info: 	 end of request
+2022-02-15T06:37:58.135Z info: 	register user and validate request route start.
+2022-02-15T06:37:58.144Z info: 	checking if similar username exist in db
+2022-02-15T06:37:58.166Z warn: 	similar username exist in db
+2022-02-15T06:37:58.172Z warn: 	similar username exist in db
+2022-02-15T06:37:58.190Z info: 	register user and validate request route start.
+2022-02-15T06:37:58.199Z warn: 	validate request fail
+2022-02-15T06:37:58.208Z info: 	register user and validate request route start.
+2022-02-15T06:37:58.214Z warn: 	validate request fail
+2022-02-15T06:37:58.245Z info: 	register user and validate request route start.
+2022-02-15T06:37:58.251Z warn: 	validate request fail
+2022-02-15T06:40:51.639Z info: 	register user and validate request route start.
+2022-02-15T06:40:51.650Z info: 	checking if similar username exist in db
+2022-02-15T06:40:51.748Z info: 	insert New User Query
+2022-02-15T06:40:51.753Z info: 	save New User Query
+2022-02-15T06:40:51.874Z info: 	 New User set Json Redis Query
+2022-02-15T06:40:51.892Z info: 	 generate Auth Token
+2022-02-15T06:40:51.899Z info: 	 end of request
+2022-02-15T06:40:51.915Z info: 	register user and validate request route start.
+2022-02-15T06:40:51.923Z info: 	checking if similar username exist in db
+2022-02-15T06:40:51.948Z warn: 	similar username exist in db
+2022-02-15T06:40:51.957Z warn: 	similar username exist in db
+2022-02-15T06:40:51.975Z info: 	register user and validate request route start.
+2022-02-15T06:40:51.986Z warn: 	validate request fail
+2022-02-15T06:40:52.003Z info: 	register user and validate request route start.
+2022-02-15T06:40:52.010Z warn: 	validate request fail
+2022-02-15T06:40:52.023Z info: 	register user and validate request route start.
+2022-02-15T06:40:52.030Z warn: 	validate request fail
+2022-02-15T06:40:52.043Z info: 	register user and validate request route start.
+2022-02-15T06:40:52.048Z warn: 	validate request fail
+2022-02-15T06:42:38.368Z info: 	register user and validate request route start.
+2022-02-15T06:42:38.382Z info: 	checking if similar username exist in db
+2022-02-15T06:42:38.473Z info: 	insert New User Query
+2022-02-15T06:42:38.476Z info: 	save New User Query
+2022-02-15T06:42:38.589Z info: 	 New User set Json Redis Query
+2022-02-15T06:42:38.604Z info: 	 generate Auth Token
+2022-02-15T06:42:38.610Z info: 	 end of request
+2022-02-15T06:42:38.625Z info: 	register user and validate request route start.
+2022-02-15T06:42:38.633Z info: 	checking if similar username exist in db
+2022-02-15T06:42:38.657Z warn: 	similar username exist in db
+2022-02-15T06:42:38.664Z warn: 	similar username exist in db
+2022-02-15T06:42:38.676Z info: 	register user and validate request route start.
+2022-02-15T06:42:38.685Z warn: 	validate request fail
+2022-02-15T06:42:38.695Z info: 	register user and validate request route start.
+2022-02-15T06:42:38.701Z warn: 	validate request fail
+2022-02-15T06:42:38.710Z info: 	register user and validate request route start.
+2022-02-15T06:42:38.718Z warn: 	validate request fail
+2022-02-15T06:42:38.732Z info: 	register user and validate request route start.
+2022-02-15T06:42:38.739Z warn: 	validate request fail
+2022-02-15T06:43:34.494Z info: 	register user and validate request route start.
+2022-02-15T06:43:34.503Z info: 	checking if similar username exist in db
+2022-02-15T06:43:34.595Z info: 	insert New User Query
+2022-02-15T06:43:34.600Z info: 	save New User Query
+2022-02-15T06:43:34.719Z info: 	 New User set Json Redis Query
+2022-02-15T06:43:34.733Z info: 	 generate Auth Token
+2022-02-15T06:43:34.742Z info: 	 end of request
+2022-02-15T06:43:34.762Z info: 	register user and validate request route start.
+2022-02-15T06:43:34.768Z info: 	checking if similar username exist in db
+2022-02-15T06:43:34.786Z warn: 	similar username exist in db
+2022-02-15T06:43:34.794Z warn: 	similar username exist in db
+2022-02-15T06:43:34.809Z info: 	register user and validate request route start.
+2022-02-15T06:43:34.821Z warn: 	validate request fail
+2022-02-15T06:43:34.853Z info: 	register user and validate request route start.
+2022-02-15T06:43:34.860Z warn: 	validate request fail
+2022-02-15T06:43:34.870Z info: 	register user and validate request route start.
+2022-02-15T06:43:34.877Z warn: 	validate request fail
+2022-02-15T06:43:34.888Z info: 	register user and validate request route start.
+2022-02-15T06:43:34.894Z warn: 	validate request fail
+2022-02-15T06:43:34.903Z info: 	user login request start
+2022-02-15T06:43:34.977Z info: 	user: 
+2022-02-15T06:43:34.978Z info: 	 generate Auth Token
+2022-02-15T06:43:34.979Z info: 	token: 
+2022-02-15T06:43:34.979Z info: 	 end of request
+2022-02-15T06:44:59.217Z info: 	register user and validate request route start.
+2022-02-15T06:44:59.234Z info: 	checking if similar username exist in db
+2022-02-15T06:44:59.350Z warn: 	similar username exist in db
+2022-02-15T06:44:59.360Z warn: 	similar username exist in db
+2022-02-15T06:44:59.531Z info: 	register user and validate request route start.
+2022-02-15T06:44:59.544Z info: 	checking if similar username exist in db
+2022-02-15T06:44:59.563Z warn: 	similar username exist in db
+2022-02-15T06:44:59.570Z warn: 	similar username exist in db
+2022-02-15T06:44:59.584Z info: 	register user and validate request route start.
+2022-02-15T06:44:59.593Z warn: 	validate request fail
+2022-02-15T06:44:59.604Z info: 	register user and validate request route start.
+2022-02-15T06:44:59.610Z warn: 	validate request fail
+2022-02-15T06:44:59.621Z info: 	register user and validate request route start.
+2022-02-15T06:44:59.630Z warn: 	validate request fail
+2022-02-15T06:44:59.639Z info: 	register user and validate request route start.
+2022-02-15T06:44:59.656Z warn: 	validate request fail
+2022-02-15T06:44:59.671Z info: 	user login request start
+2022-02-15T06:44:59.757Z error: 	login user fail Unable to login.
+2022-02-15T06:44:59.772Z info: 	user login request start
+2022-02-15T06:44:59.782Z warn: 	validate request fail
+2022-02-15T06:45:27.661Z info: 	register user and validate request route start.
+2022-02-15T06:45:27.676Z info: 	checking if similar username exist in db
+2022-02-15T06:45:27.777Z info: 	insert New User Query
+2022-02-15T06:45:27.781Z info: 	save New User Query
+2022-02-15T06:45:27.912Z info: 	 New User set Json Redis Query
+2022-02-15T06:45:27.927Z info: 	 generate Auth Token
+2022-02-15T06:45:27.933Z info: 	 end of request
+2022-02-15T06:45:27.948Z info: 	register user and validate request route start.
+2022-02-15T06:45:27.957Z info: 	checking if similar username exist in db
+2022-02-15T06:45:27.975Z warn: 	similar username exist in db
+2022-02-15T06:45:27.982Z warn: 	similar username exist in db
+2022-02-15T06:45:28.005Z info: 	register user and validate request route start.
+2022-02-15T06:45:28.014Z warn: 	validate request fail
+2022-02-15T06:45:28.025Z info: 	register user and validate request route start.
+2022-02-15T06:45:28.033Z warn: 	validate request fail
+2022-02-15T06:45:28.042Z info: 	register user and validate request route start.
+2022-02-15T06:45:28.050Z warn: 	validate request fail
+2022-02-15T06:45:28.057Z info: 	register user and validate request route start.
+2022-02-15T06:45:28.064Z warn: 	validate request fail
+2022-02-15T06:45:28.078Z info: 	user login request start
+2022-02-15T06:45:28.141Z info: 	user: 
+2022-02-15T06:45:28.146Z info: 	 generate Auth Token
+2022-02-15T06:45:28.147Z info: 	token: 
+2022-02-15T06:45:28.148Z info: 	 end of request
+2022-02-15T06:45:28.157Z info: 	user login request start
+2022-02-15T06:45:28.162Z warn: 	validate request fail
+2022-02-15T06:46:20.531Z info: 	register user and validate request route start.
+2022-02-15T06:46:20.540Z info: 	checking if similar username exist in db
+2022-02-15T06:46:20.643Z info: 	insert New User Query
+2022-02-15T06:46:20.647Z info: 	save New User Query
+2022-02-15T06:46:20.767Z info: 	 New User set Json Redis Query
+2022-02-15T06:46:20.781Z info: 	 generate Auth Token
+2022-02-15T06:46:20.788Z info: 	 end of request
+2022-02-15T06:46:20.806Z info: 	register user and validate request route start.
+2022-02-15T06:46:20.815Z info: 	checking if similar username exist in db
+2022-02-15T06:46:20.828Z warn: 	similar username exist in db
+2022-02-15T06:46:20.833Z warn: 	similar username exist in db
+2022-02-15T06:46:20.845Z info: 	register user and validate request route start.
+2022-02-15T06:46:20.859Z warn: 	validate request fail
+2022-02-15T06:46:20.870Z info: 	register user and validate request route start.
+2022-02-15T06:46:20.878Z warn: 	validate request fail
+2022-02-15T06:46:20.886Z info: 	register user and validate request route start.
+2022-02-15T06:46:20.895Z warn: 	validate request fail
+2022-02-15T06:46:20.905Z info: 	register user and validate request route start.
+2022-02-15T06:46:20.913Z warn: 	validate request fail
+2022-02-15T06:46:20.925Z info: 	user login request start
+2022-02-15T06:46:20.991Z info: 	user: 
+2022-02-15T06:46:20.996Z info: 	 generate Auth Token
+2022-02-15T06:46:20.997Z info: 	token: 
+2022-02-15T06:46:20.997Z info: 	 end of request
+2022-02-15T06:46:21.012Z info: 	user login request start
+2022-02-15T06:46:21.082Z error: 	login user fail Invalid password
+2022-02-15T06:46:21.100Z info: 	user login request start
+2022-02-15T06:46:21.123Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:46:27.079Z info: 	register user and validate request route start.
+2022-02-15T06:46:27.091Z info: 	checking if similar username exist in db
+2022-02-15T06:46:27.234Z info: 	insert New User Query
+2022-02-15T06:46:27.249Z info: 	save New User Query
+2022-02-15T06:46:27.685Z info: 	 New User set Json Redis Query
+2022-02-15T06:46:27.702Z info: 	 generate Auth Token
+2022-02-15T06:46:27.721Z info: 	 end of request
+2022-02-15T06:46:27.747Z info: 	register user and validate request route start.
+2022-02-15T06:46:27.753Z info: 	checking if similar username exist in db
+2022-02-15T06:46:27.772Z warn: 	similar username exist in db
+2022-02-15T06:46:27.780Z warn: 	similar username exist in db
+2022-02-15T06:46:27.796Z info: 	register user and validate request route start.
+2022-02-15T06:46:27.812Z warn: 	validate request fail
+2022-02-15T06:46:27.829Z info: 	register user and validate request route start.
+2022-02-15T06:46:27.836Z warn: 	validate request fail
+2022-02-15T06:46:27.850Z info: 	register user and validate request route start.
+2022-02-15T06:46:27.855Z warn: 	validate request fail
+2022-02-15T06:46:27.868Z info: 	register user and validate request route start.
+2022-02-15T06:46:27.874Z warn: 	validate request fail
+2022-02-15T06:46:27.887Z info: 	user login request start
+2022-02-15T06:46:27.952Z info: 	user: 
+2022-02-15T06:46:27.954Z info: 	 generate Auth Token
+2022-02-15T06:46:27.956Z info: 	token: 
+2022-02-15T06:46:27.957Z info: 	 end of request
+2022-02-15T06:46:27.974Z info: 	user login request start
+2022-02-15T06:46:28.050Z error: 	login user fail Invalid password
+2022-02-15T06:46:28.065Z info: 	user login request start
+2022-02-15T06:46:28.086Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:47:33.060Z info: 	register user and validate request route start.
+2022-02-15T06:47:33.071Z info: 	checking if similar username exist in db
+2022-02-15T06:47:33.167Z info: 	insert New User Query
+2022-02-15T06:47:33.170Z info: 	save New User Query
+2022-02-15T06:47:33.305Z info: 	 New User set Json Redis Query
+2022-02-15T06:47:33.320Z info: 	 generate Auth Token
+2022-02-15T06:47:33.328Z info: 	 end of request
+2022-02-15T06:47:33.349Z info: 	register user and validate request route start.
+2022-02-15T06:47:33.355Z info: 	checking if similar username exist in db
+2022-02-15T06:47:33.371Z warn: 	similar username exist in db
+2022-02-15T06:47:33.376Z warn: 	similar username exist in db
+2022-02-15T06:47:33.390Z info: 	register user and validate request route start.
+2022-02-15T06:47:33.398Z warn: 	validate request fail
+2022-02-15T06:47:33.406Z info: 	register user and validate request route start.
+2022-02-15T06:47:33.412Z warn: 	validate request fail
+2022-02-15T06:47:33.424Z info: 	register user and validate request route start.
+2022-02-15T06:47:33.430Z warn: 	validate request fail
+2022-02-15T06:47:33.442Z info: 	register user and validate request route start.
+2022-02-15T06:47:33.449Z warn: 	validate request fail
+2022-02-15T06:47:33.460Z info: 	user login request start
+2022-02-15T06:47:33.536Z info: 	user: 
+2022-02-15T06:47:33.537Z info: 	 generate Auth Token
+2022-02-15T06:47:33.538Z info: 	token: 
+2022-02-15T06:47:33.539Z info: 	 end of request
+2022-02-15T06:47:33.553Z info: 	user login request start
+2022-02-15T06:47:33.561Z warn: 	validate request fail
+2022-02-15T06:47:33.571Z info: 	user login request start
+2022-02-15T06:47:33.612Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:48:34.891Z info: 	register user and validate request route start.
+2022-02-15T06:48:34.900Z info: 	checking if similar username exist in db
+2022-02-15T06:48:34.988Z info: 	insert New User Query
+2022-02-15T06:48:34.991Z info: 	save New User Query
+2022-02-15T06:48:35.113Z info: 	 New User set Json Redis Query
+2022-02-15T06:48:35.128Z info: 	 generate Auth Token
+2022-02-15T06:48:35.135Z info: 	 end of request
+2022-02-15T06:48:35.149Z info: 	register user and validate request route start.
+2022-02-15T06:48:35.155Z info: 	checking if similar username exist in db
+2022-02-15T06:48:35.168Z warn: 	similar username exist in db
+2022-02-15T06:48:35.173Z warn: 	similar username exist in db
+2022-02-15T06:48:35.187Z info: 	register user and validate request route start.
+2022-02-15T06:48:35.196Z warn: 	validate request fail
+2022-02-15T06:48:35.207Z info: 	register user and validate request route start.
+2022-02-15T06:48:35.214Z warn: 	validate request fail
+2022-02-15T06:48:35.229Z info: 	register user and validate request route start.
+2022-02-15T06:48:35.238Z warn: 	validate request fail
+2022-02-15T06:48:35.256Z info: 	register user and validate request route start.
+2022-02-15T06:48:35.263Z warn: 	validate request fail
+2022-02-15T06:48:35.281Z info: 	user login request start
+2022-02-15T06:48:35.353Z info: 	user: 
+2022-02-15T06:48:35.354Z info: 	 generate Auth Token
+2022-02-15T06:48:35.356Z info: 	token: 
+2022-02-15T06:48:35.356Z info: 	 end of request
+2022-02-15T06:48:35.370Z info: 	user login request start
+2022-02-15T06:48:35.380Z warn: 	validate request fail
+2022-02-15T06:48:35.395Z info: 	user login request start
+2022-02-15T06:48:35.440Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:48:52.911Z info: 	user login request start
+2022-02-15T06:48:52.941Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:51:10.572Z info: 	register user and validate request route start.
+2022-02-15T06:51:10.582Z info: 	checking if similar username exist in db
+2022-02-15T06:51:10.666Z info: 	insert New User Query
+2022-02-15T06:51:10.668Z info: 	save New User Query
+2022-02-15T06:51:10.777Z info: 	 New User set Json Redis Query
+2022-02-15T06:51:10.794Z info: 	 generate Auth Token
+2022-02-15T06:51:10.804Z info: 	 end of request
+2022-02-15T06:51:10.821Z info: 	register user and validate request route start.
+2022-02-15T06:51:10.827Z info: 	checking if similar username exist in db
+2022-02-15T06:51:10.839Z warn: 	similar username exist in db
+2022-02-15T06:51:10.843Z warn: 	similar username exist in db
+2022-02-15T06:51:10.852Z info: 	register user and validate request route start.
+2022-02-15T06:51:10.860Z warn: 	validate request fail
+2022-02-15T06:51:10.871Z info: 	register user and validate request route start.
+2022-02-15T06:51:10.877Z warn: 	validate request fail
+2022-02-15T06:51:10.886Z info: 	register user and validate request route start.
+2022-02-15T06:51:10.895Z warn: 	validate request fail
+2022-02-15T06:51:10.906Z info: 	register user and validate request route start.
+2022-02-15T06:51:10.912Z warn: 	validate request fail
+2022-02-15T06:51:10.922Z info: 	user login request start
+2022-02-15T06:51:10.987Z info: 	user: 
+2022-02-15T06:51:10.991Z info: 	 generate Auth Token
+2022-02-15T06:51:10.991Z info: 	token: 
+2022-02-15T06:51:10.992Z info: 	 end of request
+2022-02-15T06:51:11.003Z info: 	user login request start
+2022-02-15T06:51:11.009Z warn: 	validate request fail
+2022-02-15T06:51:11.018Z info: 	user login request start
+2022-02-15T06:51:11.057Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:51:34.449Z info: 	register user and validate request route start.
+2022-02-15T06:51:34.463Z info: 	checking if similar username exist in db
+2022-02-15T06:51:34.606Z info: 	insert New User Query
+2022-02-15T06:51:34.609Z info: 	save New User Query
+2022-02-15T06:51:34.781Z info: 	 New User set Json Redis Query
+2022-02-15T06:51:34.797Z info: 	 generate Auth Token
+2022-02-15T06:51:34.808Z info: 	 end of request
+2022-02-15T06:51:34.835Z info: 	register user and validate request route start.
+2022-02-15T06:51:34.845Z info: 	checking if similar username exist in db
+2022-02-15T06:51:34.861Z warn: 	similar username exist in db
+2022-02-15T06:51:34.866Z warn: 	similar username exist in db
+2022-02-15T06:51:34.877Z info: 	register user and validate request route start.
+2022-02-15T06:51:34.886Z warn: 	validate request fail
+2022-02-15T06:51:34.924Z info: 	register user and validate request route start.
+2022-02-15T06:51:34.935Z warn: 	validate request fail
+2022-02-15T06:51:34.955Z info: 	register user and validate request route start.
+2022-02-15T06:51:34.962Z warn: 	validate request fail
+2022-02-15T06:51:34.977Z info: 	register user and validate request route start.
+2022-02-15T06:51:34.984Z warn: 	validate request fail
+2022-02-15T06:51:34.994Z info: 	user login request start
+2022-02-15T06:51:35.061Z info: 	user: 
+2022-02-15T06:51:35.071Z info: 	 generate Auth Token
+2022-02-15T06:51:35.072Z info: 	token: 
+2022-02-15T06:51:35.072Z info: 	 end of request
+2022-02-15T06:51:35.087Z info: 	user login request start
+2022-02-15T06:51:35.100Z warn: 	validate request fail
+2022-02-15T06:51:35.125Z info: 	user login request start
+2022-02-15T06:51:35.175Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:51:36.298Z info: 	user login request start
+2022-02-15T06:51:36.344Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:51:49.222Z info: 	user login request start
+2022-02-15T06:51:49.257Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:51:51.296Z info: 	register user and validate request route start.
+2022-02-15T06:51:51.308Z info: 	checking if similar username exist in db
+2022-02-15T06:51:51.398Z info: 	insert New User Query
+2022-02-15T06:51:51.401Z info: 	save New User Query
+2022-02-15T06:51:51.540Z info: 	 New User set Json Redis Query
+2022-02-15T06:51:51.555Z info: 	 generate Auth Token
+2022-02-15T06:51:51.567Z info: 	 end of request
+2022-02-15T06:51:51.594Z info: 	register user and validate request route start.
+2022-02-15T06:51:51.600Z info: 	checking if similar username exist in db
+2022-02-15T06:51:51.618Z warn: 	similar username exist in db
+2022-02-15T06:51:51.626Z warn: 	similar username exist in db
+2022-02-15T06:51:51.644Z info: 	register user and validate request route start.
+2022-02-15T06:51:51.656Z warn: 	validate request fail
+2022-02-15T06:51:51.672Z info: 	register user and validate request route start.
+2022-02-15T06:51:51.687Z warn: 	validate request fail
+2022-02-15T06:51:51.702Z info: 	register user and validate request route start.
+2022-02-15T06:51:51.708Z warn: 	validate request fail
+2022-02-15T06:51:51.719Z info: 	register user and validate request route start.
+2022-02-15T06:51:51.726Z warn: 	validate request fail
+2022-02-15T06:51:51.740Z info: 	user login request start
+2022-02-15T06:51:51.815Z info: 	user: 
+2022-02-15T06:51:51.816Z info: 	 generate Auth Token
+2022-02-15T06:51:51.817Z info: 	token: 
+2022-02-15T06:51:51.820Z info: 	 end of request
+2022-02-15T06:51:51.832Z info: 	user login request start
+2022-02-15T06:51:51.838Z warn: 	validate request fail
+2022-02-15T06:51:51.848Z info: 	user login request start
+2022-02-15T06:51:51.889Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:52:40.662Z info: 	register user and validate request route start.
+2022-02-15T06:52:40.682Z info: 	checking if similar username exist in db
+2022-02-15T06:52:40.779Z warn: 	similar username exist in db
+2022-02-15T06:52:40.785Z warn: 	similar username exist in db
+2022-02-15T06:52:40.926Z info: 	register user and validate request route start.
+2022-02-15T06:52:40.940Z info: 	checking if similar username exist in db
+2022-02-15T06:52:40.968Z info: 	insert New User Query
+2022-02-15T06:52:40.971Z info: 	save New User Query
+2022-02-15T06:52:41.149Z error: 	register user fail E11000 duplicate key error collection: logger-app-test.users index: _id_ dup key: { : ObjectId('620b4db8b762e8617b5c06cd') }
+2022-02-15T06:52:41.183Z info: 	register user and validate request route start.
+2022-02-15T06:52:41.208Z warn: 	validate request fail
+2022-02-15T06:52:41.221Z info: 	register user and validate request route start.
+2022-02-15T06:52:41.229Z warn: 	validate request fail
+2022-02-15T06:52:41.251Z info: 	register user and validate request route start.
+2022-02-15T06:52:41.258Z warn: 	validate request fail
+2022-02-15T06:52:41.283Z info: 	register user and validate request route start.
+2022-02-15T06:52:41.293Z warn: 	validate request fail
+2022-02-15T06:52:41.313Z info: 	user login request start
+2022-02-15T06:52:41.434Z error: 	login user fail Unable to login.
+2022-02-15T06:52:41.448Z info: 	user login request start
+2022-02-15T06:52:41.461Z warn: 	validate request fail
+2022-02-15T06:52:41.477Z info: 	user login request start
+2022-02-15T06:52:41.507Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:52:42.071Z info: 	user login request start
+2022-02-15T06:52:42.114Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:53:21.315Z info: 	user login request start
+2022-02-15T06:53:21.363Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:53:22.758Z info: 	register user and validate request route start.
+2022-02-15T06:53:22.780Z info: 	checking if similar username exist in db
+2022-02-15T06:53:22.927Z info: 	insert New User Query
+2022-02-15T06:53:22.929Z info: 	save New User Query
+2022-02-15T06:53:23.066Z info: 	 New User set Json Redis Query
+2022-02-15T06:53:23.083Z info: 	 generate Auth Token
+2022-02-15T06:53:23.095Z info: 	 end of request
+2022-02-15T06:53:23.127Z info: 	register user and validate request route start.
+2022-02-15T06:53:23.132Z info: 	checking if similar username exist in db
+2022-02-15T06:53:23.152Z warn: 	similar username exist in db
+2022-02-15T06:53:23.158Z warn: 	similar username exist in db
+2022-02-15T06:53:23.174Z info: 	register user and validate request route start.
+2022-02-15T06:53:23.185Z warn: 	validate request fail
+2022-02-15T06:53:23.201Z info: 	register user and validate request route start.
+2022-02-15T06:53:23.210Z warn: 	validate request fail
+2022-02-15T06:53:23.226Z info: 	register user and validate request route start.
+2022-02-15T06:53:23.236Z warn: 	validate request fail
+2022-02-15T06:53:23.251Z info: 	register user and validate request route start.
+2022-02-15T06:53:23.262Z warn: 	validate request fail
+2022-02-15T06:53:23.273Z info: 	user login request start
+2022-02-15T06:53:23.371Z info: 	user: 
+2022-02-15T06:53:23.372Z info: 	 generate Auth Token
+2022-02-15T06:53:23.373Z info: 	token: 
+2022-02-15T06:53:23.382Z info: 	 end of request
+2022-02-15T06:53:23.400Z info: 	user login request start
+2022-02-15T06:53:23.413Z warn: 	validate request fail
+2022-02-15T06:53:23.431Z info: 	user login request start
+2022-02-15T06:53:23.492Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:56:28.840Z info: 	register user and validate request route start.
+2022-02-15T06:56:28.850Z info: 	checking if similar username exist in db
+2022-02-15T06:56:28.908Z info: 	insert New User Query
+2022-02-15T06:56:28.915Z info: 	save New User Query
+2022-02-15T06:56:29.030Z info: 	 New User set Json Redis Query
+2022-02-15T06:56:29.045Z info: 	 generate Auth Token
+2022-02-15T06:56:29.053Z info: 	 end of request
+2022-02-15T06:56:29.067Z info: 	register user and validate request route start.
+2022-02-15T06:56:29.072Z info: 	checking if similar username exist in db
+2022-02-15T06:56:29.084Z warn: 	similar username exist in db
+2022-02-15T06:56:29.087Z warn: 	similar username exist in db
+2022-02-15T06:56:29.095Z info: 	register user and validate request route start.
+2022-02-15T06:56:29.102Z warn: 	validate request fail
+2022-02-15T06:56:29.110Z info: 	register user and validate request route start.
+2022-02-15T06:56:29.116Z warn: 	validate request fail
+2022-02-15T06:56:29.128Z info: 	register user and validate request route start.
+2022-02-15T06:56:29.133Z warn: 	validate request fail
+2022-02-15T06:56:29.143Z info: 	register user and validate request route start.
+2022-02-15T06:56:29.148Z warn: 	validate request fail
+2022-02-15T06:56:29.155Z info: 	user login request start
+2022-02-15T06:56:29.223Z info: 	user: 
+2022-02-15T06:56:29.224Z info: 	 generate Auth Token
+2022-02-15T06:56:29.224Z info: 	token: 
+2022-02-15T06:56:29.227Z info: 	 end of request
+2022-02-15T06:56:29.239Z info: 	user login request start
+2022-02-15T06:56:29.244Z warn: 	validate request fail
+2022-02-15T06:56:29.252Z info: 	user login request start
+2022-02-15T06:56:29.290Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:56:42.364Z info: 	user login request start
+2022-02-15T06:56:42.405Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:57:01.285Z info: 	register user and validate request route start.
+2022-02-15T06:57:01.297Z info: 	checking if similar username exist in db
+2022-02-15T06:57:01.507Z info: 	insert New User Query
+2022-02-15T06:57:01.509Z info: 	save New User Query
+2022-02-15T06:57:02.034Z info: 	 New User set Json Redis Query
+2022-02-15T06:57:02.049Z info: 	 generate Auth Token
+2022-02-15T06:57:02.055Z info: 	 end of request
+2022-02-15T06:57:02.092Z info: 	register user and validate request route start.
+2022-02-15T06:57:02.097Z info: 	checking if similar username exist in db
+2022-02-15T06:57:02.108Z warn: 	similar username exist in db
+2022-02-15T06:57:02.112Z warn: 	similar username exist in db
+2022-02-15T06:57:02.122Z info: 	register user and validate request route start.
+2022-02-15T06:57:02.133Z warn: 	validate request fail
+2022-02-15T06:57:02.144Z info: 	register user and validate request route start.
+2022-02-15T06:57:02.149Z warn: 	validate request fail
+2022-02-15T06:57:02.157Z info: 	register user and validate request route start.
+2022-02-15T06:57:02.161Z warn: 	validate request fail
+2022-02-15T06:57:02.170Z info: 	register user and validate request route start.
+2022-02-15T06:57:02.176Z warn: 	validate request fail
+2022-02-15T06:57:02.187Z info: 	user login request start
+2022-02-15T06:57:02.247Z info: 	user: 
+2022-02-15T06:57:02.247Z info: 	 generate Auth Token
+2022-02-15T06:57:02.248Z info: 	token: 
+2022-02-15T06:57:02.250Z info: 	 end of request
+2022-02-15T06:57:02.258Z info: 	user login request start
+2022-02-15T06:57:02.263Z warn: 	validate request fail
+2022-02-15T06:57:02.270Z info: 	user login request start
+2022-02-15T06:57:02.306Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:57:27.176Z info: 	register user and validate request route start.
+2022-02-15T06:57:27.190Z info: 	checking if similar username exist in db
+2022-02-15T06:57:27.268Z info: 	insert New User Query
+2022-02-15T06:57:27.270Z info: 	save New User Query
+2022-02-15T06:57:27.390Z info: 	 New User set Json Redis Query
+2022-02-15T06:57:27.404Z info: 	 generate Auth Token
+2022-02-15T06:57:27.412Z info: 	 end of request
+2022-02-15T06:57:27.428Z info: 	register user and validate request route start.
+2022-02-15T06:57:27.434Z info: 	checking if similar username exist in db
+2022-02-15T06:57:27.449Z warn: 	similar username exist in db
+2022-02-15T06:57:27.455Z warn: 	similar username exist in db
+2022-02-15T06:57:27.468Z info: 	register user and validate request route start.
+2022-02-15T06:57:27.478Z warn: 	validate request fail
+2022-02-15T06:57:27.486Z info: 	register user and validate request route start.
+2022-02-15T06:57:27.494Z warn: 	validate request fail
+2022-02-15T06:57:27.508Z info: 	register user and validate request route start.
+2022-02-15T06:57:27.514Z warn: 	validate request fail
+2022-02-15T06:57:27.547Z info: 	register user and validate request route start.
+2022-02-15T06:57:27.562Z warn: 	validate request fail
+2022-02-15T06:57:27.581Z info: 	user login request start
+2022-02-15T06:57:27.672Z info: 	user: 
+2022-02-15T06:57:27.673Z info: 	 generate Auth Token
+2022-02-15T06:57:27.673Z info: 	token: 
+2022-02-15T06:57:27.679Z info: 	 end of request
+2022-02-15T06:57:27.708Z info: 	user login request start
+2022-02-15T06:57:27.781Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:57:27.792Z info: 	user login request start
+2022-02-15T06:57:27.803Z warn: 	validate request fail
+2022-02-15T06:58:13.344Z info: 	user login request start
+2022-02-15T06:58:13.381Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:58:27.036Z info: 	user login request start
+2022-02-15T06:58:27.108Z error: 	login user fail Invalid password
+2022-02-15T06:59:11.729Z info: 	register user and validate request route start.
+2022-02-15T06:59:11.741Z info: 	checking if similar username exist in db
+2022-02-15T06:59:11.834Z info: 	insert New User Query
+2022-02-15T06:59:11.837Z info: 	save New User Query
+2022-02-15T06:59:11.951Z info: 	 New User set Json Redis Query
+2022-02-15T06:59:11.966Z info: 	 generate Auth Token
+2022-02-15T06:59:11.973Z info: 	 end of request
+2022-02-15T06:59:11.990Z info: 	register user and validate request route start.
+2022-02-15T06:59:11.995Z info: 	checking if similar username exist in db
+2022-02-15T06:59:12.015Z warn: 	similar username exist in db
+2022-02-15T06:59:12.020Z warn: 	similar username exist in db
+2022-02-15T06:59:12.033Z info: 	register user and validate request route start.
+2022-02-15T06:59:12.051Z warn: 	validate request fail
+2022-02-15T06:59:12.064Z info: 	register user and validate request route start.
+2022-02-15T06:59:12.075Z warn: 	validate request fail
+2022-02-15T06:59:12.088Z info: 	register user and validate request route start.
+2022-02-15T06:59:12.095Z warn: 	validate request fail
+2022-02-15T06:59:12.107Z info: 	register user and validate request route start.
+2022-02-15T06:59:12.113Z warn: 	validate request fail
+2022-02-15T06:59:12.124Z info: 	user login request start
+2022-02-15T06:59:12.206Z info: 	user: 
+2022-02-15T06:59:12.207Z info: 	 generate Auth Token
+2022-02-15T06:59:12.208Z info: 	token: 
+2022-02-15T06:59:12.213Z info: 	 end of request
+2022-02-15T06:59:12.229Z info: 	user login request start
+2022-02-15T06:59:12.282Z error: 	login user fail no such Credentials exits on db
+2022-02-15T06:59:12.303Z info: 	user login request start
+2022-02-15T06:59:12.309Z warn: 	validate request fail
+2022-02-15T07:25:45.561Z info: 	register user and validate request route start.
+2022-02-15T07:25:45.580Z info: 	checking if similar username exist in db
+2022-02-15T07:25:45.691Z info: 	insert New User Query
+2022-02-15T07:25:45.694Z info: 	save New User Query
+2022-02-15T07:25:45.827Z info: 	 New User set Json Redis Query
+2022-02-15T07:25:45.843Z info: 	 generate Auth Token
+2022-02-15T07:25:45.855Z info: 	 end of request
+2022-02-15T07:25:45.882Z info: 	register user and validate request route start.
+2022-02-15T07:25:45.891Z info: 	checking if similar username exist in db
+2022-02-15T07:25:45.904Z warn: 	similar username exist in db
+2022-02-15T07:25:45.909Z warn: 	similar username exist in db
+2022-02-15T07:25:45.921Z info: 	register user and validate request route start.
+2022-02-15T07:25:45.932Z warn: 	validate request fail
+2022-02-15T07:25:45.944Z info: 	register user and validate request route start.
+2022-02-15T07:25:45.952Z warn: 	validate request fail
+2022-02-15T07:25:45.967Z info: 	register user and validate request route start.
+2022-02-15T07:25:45.975Z warn: 	validate request fail
+2022-02-15T07:25:45.986Z info: 	register user and validate request route start.
+2022-02-15T07:25:45.992Z warn: 	validate request fail
+2022-02-15T07:25:46.004Z info: 	user login request start
+2022-02-15T07:25:46.074Z info: 	user: 
+2022-02-15T07:25:46.075Z info: 	 generate Auth Token
+2022-02-15T07:25:46.077Z info: 	token: 
+2022-02-15T07:25:46.083Z info: 	 end of request
+2022-02-15T07:25:46.095Z info: 	user login request start
+2022-02-15T07:25:46.140Z error: 	login user fail no such Credentials exits on db
+2022-02-15T07:25:46.172Z info: 	user login request start
+2022-02-15T07:25:46.180Z warn: 	validate request fail
+2022-02-15T07:27:53.204Z info: 	register user and validate request route start.
+2022-02-15T07:27:53.214Z info: 	checking if similar username exist in db
+2022-02-15T07:27:53.293Z info: 	insert New User Query
+2022-02-15T07:27:53.297Z info: 	save New User Query
+2022-02-15T07:27:53.401Z info: 	 New User set Json Redis Query
+2022-02-15T07:27:53.416Z info: 	 generate Auth Token
+2022-02-15T07:27:53.426Z info: 	 end of request
+2022-02-15T07:27:53.444Z info: 	register user and validate request route start.
+2022-02-15T07:27:53.451Z info: 	checking if similar username exist in db
+2022-02-15T07:27:53.465Z warn: 	similar username exist in db
+2022-02-15T07:27:53.472Z warn: 	similar username exist in db
+2022-02-15T07:27:53.484Z info: 	register user and validate request route start.
+2022-02-15T07:27:53.494Z warn: 	validate request fail
+2022-02-15T07:27:53.506Z info: 	register user and validate request route start.
+2022-02-15T07:27:53.514Z warn: 	validate request fail
+2022-02-15T07:27:53.527Z info: 	register user and validate request route start.
+2022-02-15T07:27:53.535Z warn: 	validate request fail
+2022-02-15T07:27:53.554Z info: 	register user and validate request route start.
+2022-02-15T07:27:53.561Z warn: 	validate request fail
+2022-02-15T07:27:53.573Z info: 	user login request start
+2022-02-15T07:27:53.643Z info: 	user: 
+2022-02-15T07:27:53.644Z info: 	 generate Auth Token
+2022-02-15T07:27:53.648Z info: 	token: 
+2022-02-15T07:27:53.653Z info: 	 end of request
+2022-02-15T07:27:53.668Z info: 	user login request start
+2022-02-15T07:27:53.712Z error: 	login user fail no such Credentials exits on db
+2022-02-15T07:27:53.724Z info: 	user login request start
+2022-02-15T07:27:53.732Z warn: 	validate request fail
+2022-02-15T09:11:05.699Z info: 	register user and validate request route start.
+2022-02-15T09:11:05.711Z info: 	checking if similar username exist in db
+2022-02-15T09:11:05.846Z info: 	insert New User Query
+2022-02-15T09:11:05.849Z info: 	save New User Query
+2022-02-15T09:11:05.920Z info: 	 New User set Json Redis Query
+2022-02-15T09:11:05.938Z info: 	 generate Auth Token
+2022-02-15T09:11:05.972Z info: 	 end of request
+2022-02-15T09:11:06.012Z info: 	register user and validate request route start.
+2022-02-15T09:11:06.040Z info: 	checking if similar username exist in db
+2022-02-15T09:11:06.079Z warn: 	similar username exist in db
+2022-02-15T09:11:06.090Z warn: 	similar username exist in db
+2022-02-15T09:11:06.140Z info: 	register user and validate request route start.
+2022-02-15T09:11:06.160Z warn: 	validate request fail
+2022-02-15T09:11:06.175Z info: 	register user and validate request route start.
+2022-02-15T09:11:06.184Z warn: 	validate request fail
+2022-02-15T09:11:06.196Z info: 	register user and validate request route start.
+2022-02-15T09:11:06.204Z warn: 	validate request fail
+2022-02-15T09:11:06.218Z info: 	register user and validate request route start.
+2022-02-15T09:11:06.227Z warn: 	validate request fail
+2022-02-15T09:11:06.240Z info: 	user login request start
+2022-02-15T09:11:06.304Z info: 	user: 
+2022-02-15T09:11:06.305Z info: 	 generate Auth Token
+2022-02-15T09:11:06.309Z info: 	token: 
+2022-02-15T09:11:06.313Z info: 	 end of request
+2022-02-15T09:11:06.331Z info: 	user login request start
+2022-02-15T09:11:06.381Z error: 	login user fail no such Credentials exits on db
+2022-02-15T09:11:06.395Z info: 	user login request start
+2022-02-15T09:11:06.405Z warn: 	validate request fail
+2022-02-15T09:12:02.851Z info: 	user login request start
+2022-02-15T09:12:03.036Z error: 	login user fail Unable to login.
+2022-02-15T09:13:03.044Z info: 	user login request start
+2022-02-15T09:13:03.234Z error: 	login user fail Unable to login.
+2022-02-15T09:15:04.739Z info: 	user login request start
+2022-02-15T09:15:04.984Z error: 	login user fail Unable to login.
+2022-02-15T09:15:32.950Z info: 	user login request start
+2022-02-15T09:15:33.163Z error: 	login user fail Unable to login.
+2022-02-15T09:18:05.371Z info: 	register user and validate request route start.
+2022-02-15T09:18:05.391Z info: 	checking if similar username exist in db
+2022-02-15T09:18:05.484Z info: 	insert New User Query
+2022-02-15T09:18:05.487Z info: 	save New User Query
+2022-02-15T09:18:05.609Z info: 	 New User set Json Redis Query
+2022-02-15T09:18:05.625Z info: 	 generate Auth Token
+2022-02-15T09:18:05.637Z info: 	 end of request
+2022-02-15T09:18:05.654Z info: 	register user and validate request route start.
+2022-02-15T09:18:05.660Z info: 	checking if similar username exist in db
+2022-02-15T09:18:05.673Z warn: 	similar username exist in db
+2022-02-15T09:18:05.676Z warn: 	similar username exist in db
+2022-02-15T09:18:05.685Z info: 	register user and validate request route start.
+2022-02-15T09:18:05.698Z warn: 	validate request fail
+2022-02-15T09:18:05.707Z info: 	register user and validate request route start.
+2022-02-15T09:18:05.713Z warn: 	validate request fail
+2022-02-15T09:18:05.725Z info: 	register user and validate request route start.
+2022-02-15T09:18:05.732Z warn: 	validate request fail
+2022-02-15T09:18:05.745Z info: 	register user and validate request route start.
+2022-02-15T09:18:05.755Z warn: 	validate request fail
+2022-02-15T09:18:05.777Z info: 	user login request start
+2022-02-15T09:18:05.851Z info: 	user: 
+2022-02-15T09:18:05.852Z info: 	 generate Auth Token
+2022-02-15T09:18:05.855Z info: 	token: 
+2022-02-15T09:18:05.858Z info: 	 end of request
+2022-02-15T09:18:05.870Z info: 	user login request start
+2022-02-15T09:18:05.912Z error: 	login user fail no such Credentials exits on db
+2022-02-15T09:18:05.925Z info: 	user login request start
+2022-02-15T09:18:05.941Z warn: 	validate request fail
+2022-02-15T09:19:43.746Z info: 	register user and validate request route start.
+2022-02-15T09:19:43.755Z info: 	checking if similar username exist in db
+2022-02-15T09:19:43.810Z info: 	insert New User Query
+2022-02-15T09:19:43.818Z info: 	save New User Query
+2022-02-15T09:19:43.896Z info: 	 New User set Json Redis Query
+2022-02-15T09:19:43.910Z info: 	 generate Auth Token
+2022-02-15T09:19:43.921Z info: 	 end of request
+2022-02-15T09:19:43.943Z info: 	register user and validate request route start.
+2022-02-15T09:19:43.950Z info: 	checking if similar username exist in db
+2022-02-15T09:19:43.963Z info: 	insert New User Query
+2022-02-15T09:19:43.965Z info: 	save New User Query
+2022-02-15T09:19:44.010Z info: 	 New User set Json Redis Query
+2022-02-15T09:19:44.024Z info: 	 generate Auth Token
+2022-02-15T09:19:44.033Z info: 	 end of request
+2022-02-15T09:19:44.048Z info: 	register user and validate request route start.
+2022-02-15T09:19:44.059Z warn: 	validate request fail
+2022-02-15T09:19:44.069Z info: 	register user and validate request route start.
+2022-02-15T09:19:44.075Z warn: 	validate request fail
+2022-02-15T09:19:44.088Z info: 	register user and validate request route start.
+2022-02-15T09:19:44.097Z warn: 	validate request fail
+2022-02-15T09:19:44.120Z info: 	register user and validate request route start.
+2022-02-15T09:19:44.132Z warn: 	validate request fail
+2022-02-15T09:19:44.143Z info: 	user login request start
+2022-02-15T09:19:44.216Z info: 	user: 
+2022-02-15T09:19:44.217Z info: 	 generate Auth Token
+2022-02-15T09:19:44.221Z info: 	token: 
+2022-02-15T09:19:44.226Z info: 	 end of request
+2022-02-15T09:19:44.240Z info: 	user login request start
+2022-02-15T09:19:44.308Z error: 	login user fail no such Credentials exits on db
+2022-02-15T09:19:44.321Z info: 	user login request start
+2022-02-15T09:19:44.330Z warn: 	validate request fail
+2022-02-15T09:20:55.158Z info: 	register user and validate request route start.
+2022-02-15T09:20:55.173Z info: 	checking if similar username exist in db
+2022-02-15T09:20:55.249Z warn: 	similar username exist in db
+2022-02-15T09:20:55.255Z warn: 	similar username exist in db
+2022-02-15T09:20:55.284Z info: 	user login request start
+2022-02-15T09:20:55.440Z error: 	login user fail Unable to login.
+2022-02-15T09:21:11.050Z info: 	register user and validate request route start.
+2022-02-15T09:21:11.059Z info: 	checking if similar username exist in db
+2022-02-15T09:21:11.117Z info: 	insert New User Query
+2022-02-15T09:21:11.131Z info: 	save New User Query
+2022-02-15T09:21:11.242Z info: 	 New User set Json Redis Query
+2022-02-15T09:21:11.258Z info: 	 generate Auth Token
+2022-02-15T09:21:11.268Z info: 	 end of request
+2022-02-15T09:21:11.282Z info: 	user login request start
+2022-02-15T09:21:11.351Z info: 	user: 
+2022-02-15T09:21:11.352Z info: 	 generate Auth Token
+2022-02-15T09:21:11.359Z info: 	token: 
+2022-02-15T09:21:11.363Z info: 	 end of request
+2022-02-15T09:23:25.309Z info: 	register user and validate request route start.
+2022-02-15T09:23:25.324Z info: 	checking if similar username exist in db
+2022-02-15T09:23:25.392Z info: 	insert New User Query
+2022-02-15T09:23:25.400Z info: 	save New User Query
+2022-02-15T09:23:25.474Z info: 	 New User set Json Redis Query
+2022-02-15T09:23:25.491Z info: 	 generate Auth Token
+2022-02-15T09:23:25.501Z info: 	 end of request
+2022-02-15T09:23:25.515Z info: 	register user and validate request route start.
+2022-02-15T09:23:25.520Z info: 	checking if similar username exist in db
+2022-02-15T09:23:25.527Z info: 	insert New User Query
+2022-02-15T09:23:25.528Z info: 	save New User Query
+2022-02-15T09:23:25.586Z info: 	 New User set Json Redis Query
+2022-02-15T09:23:25.600Z info: 	 generate Auth Token
+2022-02-15T09:23:25.613Z info: 	 end of request
+2022-02-15T09:23:25.630Z info: 	register user and validate request route start.
+2022-02-15T09:23:25.645Z warn: 	validate request fail
+2022-02-15T09:23:25.659Z info: 	register user and validate request route start.
+2022-02-15T09:23:25.670Z warn: 	validate request fail
+2022-02-15T09:23:25.695Z info: 	register user and validate request route start.
+2022-02-15T09:23:25.708Z warn: 	validate request fail
+2022-02-15T09:23:25.719Z info: 	register user and validate request route start.
+2022-02-15T09:23:25.725Z warn: 	validate request fail
+2022-02-15T09:23:25.737Z info: 	user login request start
+2022-02-15T09:23:25.820Z info: 	user: 
+2022-02-15T09:23:25.822Z info: 	 generate Auth Token
+2022-02-15T09:23:25.828Z info: 	token: 
+2022-02-15T09:23:25.831Z info: 	 end of request
+2022-02-15T09:23:25.849Z info: 	user login request start
+2022-02-15T09:23:25.857Z warn: 	validate request fail
+2022-02-15T09:23:34.550Z info: 	register user and validate request route start.
+2022-02-15T09:23:34.564Z info: 	checking if similar username exist in db
+2022-02-15T09:23:34.650Z info: 	insert New User Query
+2022-02-15T09:23:34.653Z info: 	save New User Query
+2022-02-15T09:23:34.790Z info: 	 New User set Json Redis Query
+2022-02-15T09:23:34.808Z info: 	 generate Auth Token
+2022-02-15T09:23:34.821Z info: 	 end of request
+2022-02-15T09:23:34.849Z info: 	register user and validate request route start.
+2022-02-15T09:23:34.856Z info: 	checking if similar username exist in db
+2022-02-15T09:23:34.878Z warn: 	similar username exist in db
+2022-02-15T09:23:34.884Z warn: 	similar username exist in db
+2022-02-15T09:23:34.900Z info: 	register user and validate request route start.
+2022-02-15T09:23:34.912Z warn: 	validate request fail
+2022-02-15T09:23:34.925Z info: 	register user and validate request route start.
+2022-02-15T09:23:34.933Z warn: 	validate request fail
+2022-02-15T09:23:34.949Z info: 	register user and validate request route start.
+2022-02-15T09:23:34.961Z warn: 	validate request fail
+2022-02-15T09:23:34.980Z info: 	register user and validate request route start.
+2022-02-15T09:23:34.989Z warn: 	validate request fail
+2022-02-15T09:23:35.006Z info: 	user login request start
+2022-02-15T09:23:35.089Z info: 	user: 
+2022-02-15T09:23:35.089Z info: 	 generate Auth Token
+2022-02-15T09:23:35.093Z info: 	token: 
+2022-02-15T09:23:35.096Z info: 	 end of request
+2022-02-15T09:23:35.110Z info: 	user login request start
+2022-02-15T09:23:35.117Z warn: 	validate request fail
+2022-02-15T09:24:45.432Z info: 	register user and validate request route start.
+2022-02-15T09:24:45.441Z info: 	checking if similar username exist in db
+2022-02-15T09:24:45.574Z info: 	insert New User Query
+2022-02-15T09:24:45.577Z info: 	save New User Query
+2022-02-15T09:24:45.629Z info: 	 New User set Json Redis Query
+2022-02-15T09:24:45.645Z info: 	 generate Auth Token
+2022-02-15T09:24:45.653Z info: 	 end of request
+2022-02-15T09:24:45.669Z info: 	register user and validate request route start.
+2022-02-15T09:24:45.675Z info: 	checking if similar username exist in db
+2022-02-15T09:24:45.688Z warn: 	similar username exist in db
+2022-02-15T09:24:45.694Z warn: 	similar username exist in db
+2022-02-15T09:24:45.707Z info: 	register user and validate request route start.
+2022-02-15T09:24:45.715Z warn: 	validate request fail
+2022-02-15T09:24:45.724Z info: 	register user and validate request route start.
+2022-02-15T09:24:45.731Z warn: 	validate request fail
+2022-02-15T09:24:45.741Z info: 	register user and validate request route start.
+2022-02-15T09:24:45.746Z warn: 	validate request fail
+2022-02-15T09:24:45.754Z info: 	register user and validate request route start.
+2022-02-15T09:24:45.761Z warn: 	validate request fail
+2022-02-15T09:24:45.775Z info: 	user login request start
+2022-02-15T09:24:45.849Z info: 	user: 
+2022-02-15T09:24:45.850Z info: 	 generate Auth Token
+2022-02-15T09:24:45.854Z info: 	token: 
+2022-02-15T09:24:45.857Z info: 	 end of request
+2022-02-15T09:24:45.874Z info: 	user login request start
+2022-02-15T09:24:45.882Z warn: 	validate request fail
+2022-02-15T09:24:45.895Z info: 	user login request start
+2022-02-15T09:24:45.901Z warn: 	validate request fail
+2022-02-15T09:24:50.360Z info: 	register user and validate request route start.
+2022-02-15T09:24:50.381Z info: 	checking if similar username exist in db
+2022-02-15T09:24:50.581Z info: 	insert New User Query
+2022-02-15T09:24:50.584Z info: 	save New User Query
+2022-02-15T09:24:50.818Z info: 	 New User set Json Redis Query
+2022-02-15T09:24:50.832Z info: 	 generate Auth Token
+2022-02-15T09:24:50.841Z info: 	 end of request
+2022-02-15T09:24:50.860Z info: 	register user and validate request route start.
+2022-02-15T09:24:50.866Z info: 	checking if similar username exist in db
+2022-02-15T09:24:50.881Z warn: 	similar username exist in db
+2022-02-15T09:24:50.886Z warn: 	similar username exist in db
+2022-02-15T09:24:50.900Z info: 	register user and validate request route start.
+2022-02-15T09:24:50.908Z warn: 	validate request fail
+2022-02-15T09:24:50.923Z info: 	register user and validate request route start.
+2022-02-15T09:24:50.929Z warn: 	validate request fail
+2022-02-15T09:24:50.937Z info: 	register user and validate request route start.
+2022-02-15T09:24:50.943Z warn: 	validate request fail
+2022-02-15T09:24:50.956Z info: 	register user and validate request route start.
+2022-02-15T09:24:50.962Z warn: 	validate request fail
+2022-02-15T09:24:50.974Z info: 	user login request start
+2022-02-15T09:24:51.044Z info: 	user: 
+2022-02-15T09:24:51.046Z info: 	 generate Auth Token
+2022-02-15T09:24:51.050Z info: 	token: 
+2022-02-15T09:24:51.052Z info: 	 end of request
+2022-02-15T09:24:51.063Z info: 	user login request start
+2022-02-15T09:24:51.072Z warn: 	validate request fail
+2022-02-15T09:24:51.082Z info: 	user login request start
+2022-02-15T09:24:51.090Z warn: 	validate request fail
+2022-02-15T09:24:56.384Z info: 	register user and validate request route start.
+2022-02-15T09:24:56.397Z info: 	checking if similar username exist in db
+2022-02-15T09:24:56.473Z info: 	insert New User Query
+2022-02-15T09:24:56.476Z info: 	save New User Query
+2022-02-15T09:24:56.575Z info: 	 New User set Json Redis Query
+2022-02-15T09:24:56.603Z info: 	 generate Auth Token
+2022-02-15T09:24:56.613Z info: 	 end of request
+2022-02-15T09:24:56.626Z info: 	register user and validate request route start.
+2022-02-15T09:24:56.631Z info: 	checking if similar username exist in db
+2022-02-15T09:24:56.647Z warn: 	similar username exist in db
+2022-02-15T09:24:56.652Z warn: 	similar username exist in db
+2022-02-15T09:24:56.662Z info: 	register user and validate request route start.
+2022-02-15T09:24:56.674Z warn: 	validate request fail
+2022-02-15T09:24:56.685Z info: 	register user and validate request route start.
+2022-02-15T09:24:56.692Z warn: 	validate request fail
+2022-02-15T09:24:56.707Z info: 	register user and validate request route start.
+2022-02-15T09:24:56.713Z warn: 	validate request fail
+2022-02-15T09:24:56.724Z info: 	register user and validate request route start.
+2022-02-15T09:24:56.730Z warn: 	validate request fail
+2022-02-15T09:24:56.742Z info: 	user login request start
+2022-02-15T09:24:56.819Z info: 	user: 
+2022-02-15T09:24:56.820Z info: 	 generate Auth Token
+2022-02-15T09:24:56.823Z info: 	token: 
+2022-02-15T09:24:56.827Z info: 	 end of request
+2022-02-15T09:24:56.843Z info: 	user login request start
+2022-02-15T09:24:56.854Z warn: 	validate request fail
+2022-02-15T09:24:56.865Z info: 	user login request start
+2022-02-15T09:24:56.873Z warn: 	validate request fail

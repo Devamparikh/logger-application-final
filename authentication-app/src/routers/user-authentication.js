@@ -54,16 +54,18 @@ router.post('/user/login', async (req, res) => {
         }
 
         const {user, token} = await userLogin(req)
+        console.log("user: ", user);
         if(user == null || token == null){
-            logger.error('enexpected register user fail', error)
-            throw new Error('enexpected error')
+            logger.error('no such user!', error)
+            return res.status(400).send({error: 'no such user!',  ok:false})
+            // throw new Error('enexpected error')
         }
         logger.info(' end of request')
         res.status(200).send({user, token, 'ok':true})
     } catch (error) {
-        // console.log(error.message)
+        console.log(error.message)
         logger.error('login user fail', error)
-        res.status(500).send({error: 'Something went wrong while processing your request.', ok:false})
+        res.status(500).send({error: 'Something went wrong while processing your request.', message: error.message, ok:false})
     }
 })
 

@@ -1,0 +1,77 @@
+const request = require('supertest')
+const app = require('../../app')
+const authapp = require('../../../authentication-app/app')
+
+// const {setUpDatabase, userOne, userTwo} = require('./fixtures/db')
+// setUpDatabase()
+
+// test('login to get token', async () => {
+//     const response = await request(authapp)
+//         .post('/user/login').send({
+//             "username":"devamparikh",
+//             "password": "devam1516"
+//         })
+//         .expect(200)
+//         console.log(response._body.token)
+// })
+
+
+test('insert bulk message', async () => {
+    const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjBiODAyM2YyNjBlOGFlNmNhMDE3ODEiLCJpYXQiOjE2NDQ5MjM0MjF9.lZdEJR4b8gTm0dVdCjThEJO9jEe55bfLA8N5RNF0Ve8';
+    const response = await request(app)
+        .post('/data-tracker').set({'Authorization': `Bearer ${token}`}).send([
+            {
+                "userMessage": "hello8",
+                "category": "Direct"
+            },
+            {
+                "userMessage": "hello9",
+                "category": "Direct"
+            }
+        ])
+        .expect(201)
+    
+})
+
+test('insert wrong format in bulk message', async () => {
+    const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjBiODAyM2YyNjBlOGFlNmNhMDE3ODEiLCJpYXQiOjE2NDQ5MjM0MjF9.lZdEJR4b8gTm0dVdCjThEJO9jEe55bfLA8N5RNF0Ve8';
+    const response = await request(app)
+        .post('/data-tracker').set({'Authorization': `Bearer ${token}`}).send([
+            {
+                "userMessage": "hello8"
+            },
+            {
+                "userMessage": "hello9",
+                "category": "Direct"
+            }
+        ])
+        .expect(400)
+    
+})
+
+test('search by text', async () => {
+    const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjBiODAyM2YyNjBlOGFlNmNhMDE3ODEiLCJpYXQiOjE2NDQ5MjM0MjF9.lZdEJR4b8gTm0dVdCjThEJO9jEe55bfLA8N5RNF0Ve8';
+    const response = await request(app)
+        .get('/data-tracker/searchmsg').set({'Authorization': `Bearer ${token}`}).query({searchMsg: 'hi'}).send().expect(200)
+    
+})
+
+test('no search parameter to search text', async () => {
+    const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjBiODAyM2YyNjBlOGFlNmNhMDE3ODEiLCJpYXQiOjE2NDQ5MjM0MjF9.lZdEJR4b8gTm0dVdCjThEJO9jEe55bfLA8N5RNF0Ve8';
+    const response = await request(app)
+        .get('/data-tracker/searchmsg').set({'Authorization': `Bearer ${token}`}).query().send().expect(400)
+    
+})
+
+test('search by date and category', async () => {
+    const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjBiODAyM2YyNjBlOGFlNmNhMDE3ODEiLCJpYXQiOjE2NDQ5MjM0MjF9.lZdEJR4b8gTm0dVdCjThEJO9jEe55bfLA8N5RNF0Ve8';
+    const response = await request(app)
+        .get('/data-tracker/category').set({'Authorization': `Bearer ${token}`}).query({category:'Direct', date:'2022-02-09'}).send().expect(200)
+    
+})
+
+test('no search parameter to search date and category', async () => {
+    const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjBiODAyM2YyNjBlOGFlNmNhMDE3ODEiLCJpYXQiOjE2NDQ5MjM0MjF9.lZdEJR4b8gTm0dVdCjThEJO9jEe55bfLA8N5RNF0Ve8';
+    const response = await request(app)
+        .get('/data-tracker/searchmsg').set({'Authorization': `Bearer ${token}`}).query().send().expect(400)
+})

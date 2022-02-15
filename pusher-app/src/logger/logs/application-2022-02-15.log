@@ -130,3 +130,214 @@
 2022-02-15T04:52:49.178Z info: 	formatting msg array!
 2022-02-15T04:52:49.179Z info: 	asserting Queue for msg array!
 2022-02-15T04:52:49.213Z info: 	data send to queue successful.
+2022-02-15T09:31:12.057Z info: 	data pusher request start
+2022-02-15T09:31:12.077Z info: 	connecting to amqp
+2022-02-15T09:31:12.169Z info: 	taking random number
+2022-02-15T09:31:12.170Z info: 	formatting msg array!
+2022-02-15T09:31:12.191Z error: 	Something went wrong while processing your request
+2022-02-15T09:32:38.488Z info: 	data pusher request start
+2022-02-15T09:32:38.512Z info: 	connecting to amqp
+2022-02-15T09:32:38.621Z info: 	taking random number
+2022-02-15T09:32:38.622Z info: 	formatting msg array!
+2022-02-15T09:32:38.641Z error: 	Something went wrong while processing your request
+2022-02-15T09:33:41.930Z info: 	data pusher request start
+2022-02-15T09:33:41.954Z info: 	connecting to amqp
+2022-02-15T09:33:42.084Z info: 	taking random number
+2022-02-15T09:33:42.085Z info: 	formatting msg array!
+2022-02-15T09:33:42.099Z error: 	Something went wrong while processing your request
+2022-02-15T09:34:27.137Z info: 	data pusher request start
+2022-02-15T09:34:27.157Z info: 	connecting to amqp
+2022-02-15T09:34:27.268Z info: 	taking random number
+2022-02-15T09:34:27.272Z info: 	formatting msg array!
+2022-02-15T09:34:27.296Z error: 	Something went wrong while processing your request
+2022-02-15T09:46:22.402Z info: 	data pusher request start
+2022-02-15T09:46:22.425Z info: 	connecting to amqp
+2022-02-15T09:46:22.508Z info: 	taking random number
+2022-02-15T09:46:22.509Z info: 	formatting msg array!
+2022-02-15T09:46:22.529Z error: 	Something went wrong while processing your request
+2022-02-15T09:52:01.178Z info: 	data pusher request start
+2022-02-15T09:52:01.201Z info: 	connecting to amqp
+2022-02-15T09:52:01.290Z info: 	taking random number
+2022-02-15T09:52:01.291Z info: 	formatting msg array!
+2022-02-15T09:52:01.304Z error: 	Something went wrong while processing your request
+2022-02-15T09:52:29.066Z info: 	data pusher request start
+2022-02-15T09:52:29.096Z info: 	connecting to amqp
+2022-02-15T09:52:29.207Z info: 	taking random number
+2022-02-15T09:52:29.209Z info: 	formatting msg array!
+2022-02-15T09:52:29.232Z error: 	Something went wrong while processing your request
+2022-02-15T10:01:30.664Z info: 	data pusher request start
+2022-02-15T10:01:30.681Z info: 	connecting to amqp
+2022-02-15T10:01:30.764Z info: 	taking random number
+2022-02-15T10:01:30.766Z info: 	formatting msg array!
+2022-02-15T10:01:30.777Z info: 	asserting Queue for msg array!
+2022-02-15T10:01:30.904Z info: 	data send to queue successful.
+2022-02-15T10:02:14.830Z info: 	data pusher request start
+2022-02-15T10:02:14.855Z info: 	connecting to amqp
+2022-02-15T10:02:14.930Z info: 	taking random number
+2022-02-15T10:02:14.931Z info: 	formatting msg array!
+2022-02-15T10:02:14.941Z info: 	asserting Queue for msg array!
+2022-02-15T10:02:15.068Z info: 	data send to queue successful.
+2022-02-15T10:15:53.309Z info: 	user login request start
+2022-02-15T10:15:53.526Z info: 	user: 
+2022-02-15T10:15:53.532Z info: 	 generate Auth Token
+2022-02-15T10:15:53.542Z info: 	token: 
+2022-02-15T10:15:53.548Z info: 	 end of request
+2022-02-15T10:17:01.187Z info: 	user login request start
+2022-02-15T10:17:03.008Z info: 	user: 
+2022-02-15T10:17:03.009Z info: 	 generate Auth Token
+2022-02-15T10:17:03.013Z info: 	token: 
+2022-02-15T10:17:03.016Z info: 	 end of request
+2022-02-15T10:22:33.792Z info: 	user login request start
+2022-02-15T10:22:38.815Z info: 	data pusher request start
+2022-02-15T10:22:38.838Z info: 	connecting to amqp
+2022-02-15T10:22:38.875Z info: 	taking random number
+2022-02-15T10:22:38.876Z info: 	formatting msg array!
+2022-02-15T10:22:38.885Z info: 	asserting Queue for msg array!
+2022-02-15T10:22:38.924Z error: 	Something went wrong while processing your request
+2022-02-15T10:23:19.837Z info: 	user login request start
+2022-02-15T10:23:20.053Z info: 	user: 
+2022-02-15T10:23:20.054Z info: 	 generate Auth Token
+2022-02-15T10:23:20.062Z info: 	token: 
+2022-02-15T10:23:20.069Z info: 	 end of request
+2022-02-15T10:23:20.159Z info: 	data pusher request start
+2022-02-15T10:23:20.179Z info: 	connecting to amqp
+2022-02-15T10:23:20.207Z info: 	taking random number
+2022-02-15T10:23:20.208Z info: 	formatting msg array!
+2022-02-15T10:23:20.213Z info: 	asserting Queue for msg array!
+2022-02-15T10:23:20.253Z info: 	data send to queue successful.
+2022-02-15T10:24:00.973Z info: 	user login request start
+2022-02-15T10:24:01.161Z info: 	user: 
+2022-02-15T10:24:01.161Z info: 	 generate Auth Token
+2022-02-15T10:24:01.167Z info: 	token: 
+2022-02-15T10:24:01.173Z info: 	 end of request
+2022-02-15T10:24:01.257Z info: 	data pusher request start
+2022-02-15T10:24:01.273Z info: 	connecting to amqp
+2022-02-15T10:24:01.306Z info: 	taking random number
+2022-02-15T10:24:01.308Z info: 	formatting msg array!
+2022-02-15T10:24:01.313Z info: 	asserting Queue for msg array!
+2022-02-15T10:24:01.361Z info: 	data send to queue successful.
+2022-02-15T10:26:09.509Z info: 	user login request start
+2022-02-15T10:26:09.678Z info: 	user: 
+2022-02-15T10:26:09.678Z info: 	 generate Auth Token
+2022-02-15T10:26:09.685Z info: 	token: 
+2022-02-15T10:26:09.690Z info: 	 end of request
+2022-02-15T10:26:09.762Z info: 	data pusher request start
+2022-02-15T10:26:09.779Z info: 	connecting to amqp
+2022-02-15T10:26:09.812Z info: 	taking random number
+2022-02-15T10:26:09.813Z info: 	formatting msg array!
+2022-02-15T10:26:09.817Z info: 	asserting Queue for msg array!
+2022-02-15T10:26:09.860Z info: 	data send to queue successful.
+2022-02-15T10:26:09.886Z info: 	data pusher request start
+2022-02-15T10:26:09.896Z warn: 	validate request fail
+2022-02-15T10:26:22.292Z info: 	user login request start
+2022-02-15T10:26:22.467Z info: 	user: 
+2022-02-15T10:26:22.468Z info: 	 generate Auth Token
+2022-02-15T10:26:22.473Z info: 	token: 
+2022-02-15T10:26:22.478Z info: 	 end of request
+2022-02-15T10:26:22.545Z info: 	data pusher request start
+2022-02-15T10:26:22.560Z info: 	connecting to amqp
+2022-02-15T10:26:22.589Z info: 	taking random number
+2022-02-15T10:26:22.590Z info: 	formatting msg array!
+2022-02-15T10:26:22.593Z info: 	asserting Queue for msg array!
+2022-02-15T10:26:22.637Z info: 	data send to queue successful.
+2022-02-15T10:26:22.665Z info: 	data pusher request start
+2022-02-15T10:26:22.675Z warn: 	validate request fail
+2022-02-15T10:27:47.938Z info: 	user login request start
+2022-02-15T10:27:48.198Z error: 	login user fail Unable to login.
+2022-02-15T10:28:44.570Z info: 	user login request start
+2022-02-15T10:29:41.714Z info: 	user login request start
+2022-02-15T10:29:41.962Z info: 	user: 
+2022-02-15T10:29:41.963Z info: 	 generate Auth Token
+2022-02-15T10:29:41.967Z info: 	token: 
+2022-02-15T10:29:41.971Z info: 	 end of request
+2022-02-15T10:30:44.248Z info: 	user login request start
+2022-02-15T10:30:44.458Z info: 	user: 
+2022-02-15T10:30:44.459Z info: 	 generate Auth Token
+2022-02-15T10:30:44.464Z info: 	token: 
+2022-02-15T10:30:44.468Z info: 	 end of request
+2022-02-15T10:30:44.533Z info: 	data pusher request start
+2022-02-15T10:30:44.550Z info: 	connecting to amqp
+2022-02-15T10:30:44.580Z info: 	taking random number
+2022-02-15T10:30:44.582Z info: 	formatting msg array!
+2022-02-15T10:30:44.592Z info: 	asserting Queue for msg array!
+2022-02-15T10:30:44.631Z info: 	data send to queue successful.
+2022-02-15T10:31:29.033Z info: 	user login request start
+2022-02-15T10:31:29.207Z info: 	user: 
+2022-02-15T10:31:29.208Z info: 	 generate Auth Token
+2022-02-15T10:31:29.218Z info: 	token: 
+2022-02-15T10:31:29.224Z info: 	 end of request
+2022-02-15T10:31:29.306Z info: 	data pusher request start
+2022-02-15T10:31:29.320Z info: 	connecting to amqp
+2022-02-15T10:31:29.343Z info: 	taking random number
+2022-02-15T10:31:29.344Z info: 	formatting msg array!
+2022-02-15T10:31:29.349Z info: 	asserting Queue for msg array!
+2022-02-15T10:31:29.402Z info: 	data send to queue successful.
+2022-02-15T10:31:29.433Z info: 	data pusher request start
+2022-02-15T10:31:29.447Z warn: 	validate request fail
+2022-02-15T10:53:18.614Z info: 	user login request start
+2022-02-15T10:53:18.802Z info: 	user: 
+2022-02-15T10:53:18.803Z info: 	 generate Auth Token
+2022-02-15T10:53:18.808Z info: 	token: 
+2022-02-15T10:53:18.812Z info: 	 end of request
+2022-02-15T10:53:18.889Z info: 	data pusher request start
+2022-02-15T10:53:18.908Z info: 	connecting to amqp
+2022-02-15T10:53:18.943Z info: 	taking random number
+2022-02-15T10:53:18.944Z info: 	formatting msg array!
+2022-02-15T10:53:18.949Z info: 	asserting Queue for msg array!
+2022-02-15T10:53:18.989Z info: 	data send to queue successful.
+2022-02-15T10:53:19.007Z info: 	data pusher request start
+2022-02-15T10:53:19.022Z warn: 	validate request fail
+2022-02-15T10:53:35.927Z info: 	user login request start
+2022-02-15T10:53:36.168Z info: 	user: 
+2022-02-15T10:53:36.168Z info: 	 generate Auth Token
+2022-02-15T10:53:36.174Z info: 	token: 
+2022-02-15T10:53:36.178Z info: 	 end of request
+2022-02-15T10:53:36.276Z info: 	data pusher request start
+2022-02-15T10:53:36.293Z info: 	connecting to amqp
+2022-02-15T10:53:36.321Z info: 	taking random number
+2022-02-15T10:53:36.322Z info: 	formatting msg array!
+2022-02-15T10:53:36.327Z info: 	asserting Queue for msg array!
+2022-02-15T10:53:36.373Z info: 	data send to queue successful.
+2022-02-15T10:53:36.401Z info: 	data pusher request start
+2022-02-15T10:53:36.411Z warn: 	validate request fail
+2022-02-15T10:55:10.529Z info: 	user login request start
+2022-02-15T10:55:10.745Z info: 	user: 
+2022-02-15T10:55:10.746Z info: 	 generate Auth Token
+2022-02-15T10:55:10.754Z info: 	token: 
+2022-02-15T10:55:10.760Z info: 	 end of request
+2022-02-15T10:55:10.841Z info: 	data pusher request start
+2022-02-15T10:55:10.854Z info: 	connecting to amqp
+2022-02-15T10:55:10.890Z info: 	taking random number
+2022-02-15T10:55:10.892Z info: 	formatting msg array!
+2022-02-15T10:55:10.896Z info: 	asserting Queue for msg array!
+2022-02-15T10:55:10.948Z info: 	data send to queue successful.
+2022-02-15T10:55:10.975Z info: 	data pusher request start
+2022-02-15T10:55:10.986Z warn: 	validate request fail
+2022-02-15T11:06:50.901Z info: 	user login request start
+2022-02-15T11:06:55.897Z info: 	data pusher request start
+2022-02-15T11:06:55.908Z info: 	connecting to amqp
+2022-02-15T11:06:55.937Z info: 	taking random number
+2022-02-15T11:06:55.938Z info: 	formatting msg array!
+2022-02-15T11:06:55.943Z info: 	asserting Queue for msg array!
+2022-02-15T11:06:55.978Z error: 	Something went wrong while processing your request
+2022-02-15T11:06:56.023Z info: 	data pusher request start
+2022-02-15T11:06:56.036Z warn: 	validate request fail
+2022-02-15T11:07:54.800Z info: 	user login request start
+2022-02-15T11:07:54.997Z info: 	user: 
+2022-02-15T11:07:54.998Z info: 	 generate Auth Token
+2022-02-15T11:07:55.003Z info: 	token: 
+2022-02-15T11:07:55.007Z info: 	 end of request
+2022-02-15T11:07:55.087Z info: 	data pusher request start
+2022-02-15T11:07:55.107Z info: 	connecting to amqp
+2022-02-15T11:07:55.135Z info: 	taking random number
+2022-02-15T11:07:55.136Z info: 	formatting msg array!
+2022-02-15T11:07:55.142Z info: 	asserting Queue for msg array!
+2022-02-15T11:07:55.189Z info: 	data send to queue successful.
+2022-02-15T11:07:55.213Z info: 	data pusher request start
+2022-02-15T11:07:55.230Z warn: 	validate request fail
+2022-02-15T11:57:02.072Z info: 	data pusher request start
+2022-02-15T11:57:02.085Z info: 	connecting to amqp
+2022-02-15T11:57:02.124Z info: 	taking random number
+2022-02-15T11:57:02.125Z info: 	formatting msg array!
+2022-02-15T11:57:02.128Z info: 	asserting Queue for msg array!
+2022-02-15T11:57:02.168Z info: 	data send to queue successful.

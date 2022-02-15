@@ -10,3 +10,159 @@
 2022-02-15T05:10:16.491Z info: 	fetch from queue start!
 2022-02-15T05:10:16.624Z info: 	creating channel!
 2022-02-15T05:10:16.652Z info: 	assert Queue
+2022-02-15T10:01:30.810Z info: 	msg from queue!
+2022-02-15T10:01:30.817Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T10:01:30.818Z info: 	condition false set category to direct
+2022-02-15T10:01:30.824Z info: 	making post request to track data api
+2022-02-15T10:01:30.831Z info: 	setting header!
+2022-02-15T10:01:30.832Z info: 	making post request using axios to track data api
+2022-02-15T10:02:14.959Z info: 	msg from queue!
+2022-02-15T10:02:14.960Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T10:02:14.961Z info: 	condition false set category to direct
+2022-02-15T10:02:14.968Z info: 	making post request to track data api
+2022-02-15T10:02:14.979Z info: 	setting header!
+2022-02-15T10:02:14.980Z info: 	making post request using axios to track data api
+2022-02-15T10:22:38.936Z info: 	msg from queue!
+2022-02-15T10:22:38.938Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T10:22:38.938Z info: 	condition false set category to direct
+2022-02-15T10:22:38.939Z info: 	making post request to track data api
+2022-02-15T10:22:38.940Z info: 	setting header!
+2022-02-15T10:22:38.940Z info: 	making post request using axios to track data api
+2022-02-15T10:23:20.225Z info: 	msg from queue!
+2022-02-15T10:23:20.226Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T10:23:20.226Z info: 	condition false set category to direct
+2022-02-15T10:23:20.227Z info: 	making post request to track data api
+2022-02-15T10:23:20.227Z info: 	setting header!
+2022-02-15T10:23:20.228Z info: 	making post request using axios to track data api
+2022-02-15T10:24:01.333Z info: 	msg from queue!
+2022-02-15T10:24:01.334Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T10:24:01.335Z info: 	condition false set category to direct
+2022-02-15T10:24:01.336Z info: 	making post request to track data api
+2022-02-15T10:24:01.337Z info: 	setting header!
+2022-02-15T10:24:01.337Z info: 	making post request using axios to track data api
+2022-02-15T10:26:09.830Z info: 	msg from queue!
+2022-02-15T10:26:09.831Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T10:26:09.832Z info: 	condition false set category to direct
+2022-02-15T10:26:09.832Z info: 	making post request to track data api
+2022-02-15T10:26:09.833Z info: 	setting header!
+2022-02-15T10:26:09.834Z info: 	making post request using axios to track data api
+2022-02-15T10:26:22.606Z info: 	msg from queue!
+2022-02-15T10:26:22.606Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T10:26:22.607Z info: 	condition false set category to direct
+2022-02-15T10:26:22.607Z info: 	making post request to track data api
+2022-02-15T10:26:22.608Z info: 	setting header!
+2022-02-15T10:26:22.609Z info: 	making post request using axios to track data api
+2022-02-15T10:30:44.605Z info: 	msg from queue!
+2022-02-15T10:30:44.611Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T10:30:44.611Z info: 	condition false set category to direct
+2022-02-15T10:30:44.613Z info: 	making post request to track data api
+2022-02-15T10:30:44.613Z info: 	setting header!
+2022-02-15T10:30:44.613Z info: 	making post request using axios to track data api
+2022-02-15T10:31:29.363Z info: 	msg from queue!
+2022-02-15T10:31:29.364Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T10:31:29.365Z info: 	condition false set category to direct
+2022-02-15T10:31:29.366Z info: 	making post request to track data api
+2022-02-15T10:31:29.366Z info: 	setting header!
+2022-02-15T10:31:29.367Z info: 	making post request using axios to track data api
+2022-02-15T10:53:18.962Z info: 	msg from queue!
+2022-02-15T10:53:18.963Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T10:53:18.964Z info: 	condition false set category to direct
+2022-02-15T10:53:18.967Z info: 	making post request to track data api
+2022-02-15T10:53:18.968Z info: 	setting header!
+2022-02-15T10:53:18.968Z info: 	making post request using axios to track data api
+2022-02-15T10:53:36.345Z info: 	msg from queue!
+2022-02-15T10:53:36.348Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T10:53:36.348Z info: 	condition false set category to direct
+2022-02-15T10:53:36.349Z info: 	making post request to track data api
+2022-02-15T10:53:36.349Z info: 	setting header!
+2022-02-15T10:53:36.350Z info: 	making post request using axios to track data api
+2022-02-15T10:55:10.909Z info: 	msg from queue!
+2022-02-15T10:55:10.910Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T10:55:10.910Z info: 	condition false set category to direct
+2022-02-15T10:55:10.911Z info: 	making post request to track data api
+2022-02-15T10:55:10.912Z info: 	setting header!
+2022-02-15T10:55:10.912Z info: 	making post request using axios to track data api
+2022-02-15T11:06:55.985Z info: 	msg from queue!
+2022-02-15T11:06:55.986Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T11:06:55.986Z info: 	condition false set category to direct
+2022-02-15T11:06:55.986Z info: 	making post request to track data api
+2022-02-15T11:06:55.987Z info: 	setting header!
+2022-02-15T11:06:55.987Z info: 	making post request using axios to track data api
+2022-02-15T11:07:55.156Z info: 	msg from queue!
+2022-02-15T11:07:55.158Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T11:07:55.159Z info: 	condition false set category to direct
+2022-02-15T11:07:55.161Z info: 	making post request to track data api
+2022-02-15T11:07:55.161Z info: 	setting header!
+2022-02-15T11:07:55.161Z info: 	making post request using axios to track data api
+2022-02-15T11:39:20.041Z info: 	fetch from queue start!
+2022-02-15T11:39:20.158Z info: 	creating channel!
+2022-02-15T11:39:20.180Z info: 	assert Queue
+2022-02-15T11:50:21.789Z info: 	fetch from queue start!
+2022-02-15T11:50:21.862Z info: 	creating channel!
+2022-02-15T11:50:21.877Z info: 	assert Queue
+2022-02-15T11:50:52.475Z info: 	fetch from queue start!
+2022-02-15T11:50:52.580Z info: 	creating channel!
+2022-02-15T11:50:52.594Z info: 	assert Queue
+2022-02-15T11:51:23.396Z info: 	fetch from queue start!
+2022-02-15T11:51:23.489Z info: 	creating channel!
+2022-02-15T11:51:23.509Z info: 	assert Queue
+2022-02-15T11:51:45.325Z info: 	fetch from queue start!
+2022-02-15T11:51:45.394Z info: 	creating channel!
+2022-02-15T11:51:45.399Z info: 	assert Queue
+2022-02-15T11:52:47.869Z info: 	fetch from queue start!
+2022-02-15T11:52:47.986Z info: 	creating channel!
+2022-02-15T11:52:48.007Z info: 	assert Queue
+2022-02-15T11:53:05.302Z info: 	fetch from queue start!
+2022-02-15T11:53:05.515Z info: 	creating channel!
+2022-02-15T11:53:05.548Z info: 	assert Queue
+2022-02-15T11:53:07.125Z info: 	fetch from queue start!
+2022-02-15T11:53:35.086Z info: 	fetch from queue start!
+2022-02-15T11:53:35.154Z info: 	creating channel!
+2022-02-15T11:53:35.167Z info: 	assert Queue
+2022-02-15T11:53:42.906Z info: 	fetch from queue start!
+2022-02-15T11:54:31.918Z info: 	fetch from queue start!
+2022-02-15T11:54:31.988Z info: 	creating channel!
+2022-02-15T11:54:32.006Z info: 	assert Queue
+2022-02-15T11:54:38.529Z info: 	fetch from queue start!
+2022-02-15T11:56:42.336Z info: 	fetch from queue start!
+2022-02-15T11:56:42.407Z info: 	creating channel!
+2022-02-15T11:56:42.415Z info: 	assert Queue
+2022-02-15T11:57:02.145Z info: 	msg from queue!
+2022-02-15T11:57:02.155Z info: 	creating body obj by checking condition to push to track api!
+2022-02-15T11:57:02.156Z info: 	condition false set category to direct
+2022-02-15T11:57:02.164Z info: 	making post request to track data api
+2022-02-15T11:57:02.170Z info: 	setting header!
+2022-02-15T11:57:02.173Z info: 	making post request using axios to track data api
+2022-02-15T11:58:59.087Z info: 	fetch from queue start!
+2022-02-15T11:58:59.170Z info: 	creating channel!
+2022-02-15T11:58:59.190Z info: 	assert Queue
+2022-02-15T11:59:08.561Z info: 	fetch from queue start!
+2022-02-15T11:59:08.570Z info: 	fetch from queue start!
+2022-02-15T12:01:50.713Z info: 	fetch from queue start!
+2022-02-15T12:01:50.781Z info: 	creating channel!
+2022-02-15T12:01:50.795Z info: 	assert Queue
+2022-02-15T12:02:24.616Z info: 	fetch from queue start!
+2022-02-15T12:02:24.685Z info: 	creating channel!
+2022-02-15T12:02:24.693Z info: 	assert Queue
+2022-02-15T12:02:53.878Z info: 	fetch from queue start!
+2022-02-15T12:02:53.927Z info: 	creating channel!
+2022-02-15T12:02:53.932Z info: 	assert Queue
+2022-02-15T12:03:10.276Z info: 	fetch from queue start!
+2022-02-15T12:03:10.288Z info: 	fetch from queue start!
+2022-02-15T12:04:03.287Z info: 	fetch from queue start!
+2022-02-15T12:04:03.337Z info: 	creating channel!
+2022-02-15T12:04:03.341Z info: 	assert Queue
+2022-02-15T12:04:10.641Z info: 	fetch from queue start!
+2022-02-15T12:04:10.650Z info: 	fetch from queue start!
+2022-02-15T12:04:25.598Z info: 	fetch from queue start!
+2022-02-15T12:04:25.653Z info: 	creating channel!
+2022-02-15T12:04:25.657Z info: 	assert Queue
+2022-02-15T12:05:39.738Z info: 	fetch from queue start!
+2022-02-15T12:05:39.845Z info: 	creating channel!
+2022-02-15T12:05:39.853Z info: 	assert Queue
+2022-02-15T12:11:30.338Z info: 	fetch from queue start!
+2022-02-15T12:11:30.396Z info: 	creating channel!
+2022-02-15T12:11:30.401Z info: 	assert Queue
+2022-02-15T12:45:23.885Z info: 	fetch from queue start!
+2022-02-15T12:45:24.053Z info: 	creating channel!
+2022-02-15T12:45:24.060Z info: 	assert Queue
