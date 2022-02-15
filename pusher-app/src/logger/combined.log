@@ -6,3 +6,135 @@
 2022-02-14T12:35:04.344Z info: 	returning success msg
 2022-02-14T12:36:35.166Z info: 	data pusher request start
 2022-02-14T12:36:35.220Z info: 	returning success msg
+2022-02-15T03:56:55.863Z info: 	data pusher request start
+2022-02-15T03:56:55.888Z info: 	connecting to amqp
+2022-02-15T03:56:55.934Z info: 	taking random number
+2022-02-15T03:56:55.936Z info: 	formatting msg array!
+2022-02-15T03:56:55.940Z info: 	asserting Queue for msg array!
+2022-02-15T03:56:56.094Z info: 	data send to queue successful.
+2022-02-15T03:57:21.913Z info: 	data pusher request start
+2022-02-15T03:57:21.915Z info: 	connecting to amqp
+2022-02-15T03:57:21.945Z info: 	taking random number
+2022-02-15T03:57:21.946Z info: 	formatting msg array!
+2022-02-15T03:57:21.948Z info: 	asserting Queue for msg array!
+2022-02-15T03:57:21.983Z info: 	data send to queue successful.
+2022-02-15T03:57:28.079Z info: 	data pusher request start
+2022-02-15T03:57:28.081Z info: 	connecting to amqp
+2022-02-15T03:57:28.090Z info: 	taking random number
+2022-02-15T03:57:28.091Z info: 	formatting msg array!
+2022-02-15T03:57:28.092Z info: 	asserting Queue for msg array!
+2022-02-15T03:57:28.129Z info: 	data send to queue successful.
+2022-02-15T03:57:35.170Z info: 	data pusher request start
+2022-02-15T03:57:35.172Z info: 	connecting to amqp
+2022-02-15T03:57:35.182Z info: 	taking random number
+2022-02-15T03:57:35.183Z info: 	formatting msg array!
+2022-02-15T03:57:35.185Z info: 	asserting Queue for msg array!
+2022-02-15T03:57:35.217Z info: 	data send to queue successful.
+2022-02-15T03:57:40.295Z info: 	data pusher request start
+2022-02-15T03:57:40.301Z info: 	connecting to amqp
+2022-02-15T03:57:40.321Z info: 	taking random number
+2022-02-15T03:57:40.323Z info: 	formatting msg array!
+2022-02-15T03:57:40.328Z info: 	asserting Queue for msg array!
+2022-02-15T03:57:40.356Z info: 	data send to queue successful.
+2022-02-15T03:57:45.860Z info: 	data pusher request start
+2022-02-15T03:57:45.861Z info: 	connecting to amqp
+2022-02-15T03:57:45.872Z info: 	taking random number
+2022-02-15T03:57:45.874Z info: 	formatting msg array!
+2022-02-15T03:57:45.882Z info: 	asserting Queue for msg array!
+2022-02-15T03:57:45.915Z info: 	data send to queue successful.
+2022-02-15T03:57:49.462Z info: 	data pusher request start
+2022-02-15T03:57:49.465Z info: 	connecting to amqp
+2022-02-15T03:57:49.482Z info: 	taking random number
+2022-02-15T03:57:49.483Z info: 	formatting msg array!
+2022-02-15T03:57:49.485Z info: 	asserting Queue for msg array!
+2022-02-15T03:57:49.577Z info: 	data send to queue successful.
+2022-02-15T03:57:54.516Z info: 	data pusher request start
+2022-02-15T03:57:54.517Z info: 	connecting to amqp
+2022-02-15T03:57:54.535Z info: 	taking random number
+2022-02-15T03:57:54.547Z info: 	formatting msg array!
+2022-02-15T03:57:54.548Z info: 	asserting Queue for msg array!
+2022-02-15T03:57:54.577Z info: 	data send to queue successful.
+2022-02-15T03:58:03.097Z info: 	data pusher request start
+2022-02-15T03:58:03.109Z info: 	connecting to amqp
+2022-02-15T03:58:03.131Z info: 	taking random number
+2022-02-15T03:58:03.135Z info: 	formatting msg array!
+2022-02-15T03:58:03.137Z info: 	asserting Queue for msg array!
+2022-02-15T03:58:03.171Z info: 	data send to queue successful.
+2022-02-15T03:58:09.691Z info: 	data pusher request start
+2022-02-15T03:58:09.695Z info: 	connecting to amqp
+2022-02-15T03:58:09.715Z info: 	taking random number
+2022-02-15T03:58:09.715Z info: 	formatting msg array!
+2022-02-15T03:58:09.721Z info: 	asserting Queue for msg array!
+2022-02-15T03:58:09.753Z info: 	data send to queue successful.
+2022-02-15T03:58:14.597Z info: 	data pusher request start
+2022-02-15T03:58:14.598Z info: 	connecting to amqp
+2022-02-15T03:58:14.608Z info: 	taking random number
+2022-02-15T03:58:14.608Z info: 	formatting msg array!
+2022-02-15T03:58:14.609Z info: 	asserting Queue for msg array!
+2022-02-15T03:58:14.643Z info: 	data send to queue successful.
+2022-02-15T03:58:18.292Z info: 	data pusher request start
+2022-02-15T03:58:18.294Z info: 	connecting to amqp
+2022-02-15T03:58:18.303Z info: 	taking random number
+2022-02-15T03:58:18.304Z info: 	formatting msg array!
+2022-02-15T03:58:18.305Z info: 	asserting Queue for msg array!
+2022-02-15T03:58:18.338Z info: 	data send to queue successful.
+2022-02-15T03:58:27.178Z info: 	data pusher request start
+2022-02-15T03:58:27.188Z info: 	connecting to amqp
+2022-02-15T03:58:27.216Z info: 	taking random number
+2022-02-15T03:58:27.221Z info: 	formatting msg array!
+2022-02-15T03:58:27.227Z info: 	asserting Queue for msg array!
+2022-02-15T03:58:27.258Z info: 	data send to queue successful.
+2022-02-15T03:58:33.437Z info: 	data pusher request start
+2022-02-15T03:58:33.439Z info: 	connecting to amqp
+2022-02-15T03:58:33.449Z info: 	taking random number
+2022-02-15T03:58:33.449Z info: 	formatting msg array!
+2022-02-15T03:58:33.452Z info: 	asserting Queue for msg array!
+2022-02-15T03:58:33.481Z info: 	data send to queue successful.
+2022-02-15T03:58:37.615Z info: 	data pusher request start
+2022-02-15T03:58:37.621Z info: 	connecting to amqp
+2022-02-15T03:58:37.633Z info: 	taking random number
+2022-02-15T03:58:37.636Z info: 	formatting msg array!
+2022-02-15T03:58:37.637Z info: 	asserting Queue for msg array!
+2022-02-15T03:58:37.667Z info: 	data send to queue successful.
+2022-02-15T03:58:39.689Z info: 	data pusher request start
+2022-02-15T03:58:39.690Z info: 	connecting to amqp
+2022-02-15T03:58:39.706Z info: 	taking random number
+2022-02-15T03:58:39.717Z info: 	formatting msg array!
+2022-02-15T03:58:39.723Z info: 	asserting Queue for msg array!
+2022-02-15T03:58:39.751Z info: 	data send to queue successful.
+2022-02-15T03:58:40.680Z info: 	data pusher request start
+2022-02-15T03:58:40.681Z info: 	connecting to amqp
+2022-02-15T03:58:40.693Z info: 	taking random number
+2022-02-15T03:58:40.694Z info: 	formatting msg array!
+2022-02-15T03:58:40.694Z info: 	asserting Queue for msg array!
+2022-02-15T03:58:40.726Z info: 	data send to queue successful.
+2022-02-15T03:58:41.439Z info: 	data pusher request start
+2022-02-15T03:58:41.441Z info: 	connecting to amqp
+2022-02-15T03:58:41.454Z info: 	taking random number
+2022-02-15T03:58:41.455Z info: 	formatting msg array!
+2022-02-15T03:58:41.456Z info: 	asserting Queue for msg array!
+2022-02-15T03:58:41.487Z info: 	data send to queue successful.
+2022-02-15T03:59:04.308Z info: 	data pusher request start
+2022-02-15T03:59:04.314Z info: 	connecting to amqp
+2022-02-15T03:59:04.326Z info: 	taking random number
+2022-02-15T03:59:04.326Z info: 	formatting msg array!
+2022-02-15T03:59:04.327Z info: 	asserting Queue for msg array!
+2022-02-15T03:59:04.357Z info: 	data send to queue successful.
+2022-02-15T04:27:39.306Z info: 	data pusher request start
+2022-02-15T04:27:39.308Z info: 	connecting to amqp
+2022-02-15T04:27:39.322Z info: 	taking random number
+2022-02-15T04:27:39.322Z info: 	formatting msg array!
+2022-02-15T04:27:39.323Z info: 	asserting Queue for msg array!
+2022-02-15T04:27:39.358Z info: 	data send to queue successful.
+2022-02-15T04:27:52.672Z info: 	data pusher request start
+2022-02-15T04:27:52.674Z info: 	connecting to amqp
+2022-02-15T04:27:52.687Z info: 	taking random number
+2022-02-15T04:27:52.688Z info: 	formatting msg array!
+2022-02-15T04:27:52.690Z info: 	asserting Queue for msg array!
+2022-02-15T04:27:52.722Z info: 	data send to queue successful.
+2022-02-15T04:52:49.156Z info: 	data pusher request start
+2022-02-15T04:52:49.157Z info: 	connecting to amqp
+2022-02-15T04:52:49.171Z info: 	taking random number
+2022-02-15T04:52:49.178Z info: 	formatting msg array!
+2022-02-15T04:52:49.179Z info: 	asserting Queue for msg array!
+2022-02-15T04:52:49.213Z info: 	data send to queue successful.

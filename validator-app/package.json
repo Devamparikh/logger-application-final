@@ -22,7 +22,9 @@
     "redis": "^4.0.3",
     "redis-om": "^0.1.7",
     "uuid": "^8.3.2",
-    "validator": "^13.7.0"
+    "validator": "^13.7.0",
+    "winston": "^3.6.0",
+    "winston-daily-rotate-file": "^4.6.1"
   },
   "devDependencies": {
     "env-cmd": "^8.0.2",
