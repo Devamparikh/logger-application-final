@@ -1,15 +1,53 @@
 const express = require('express')
+const swaggerJSDoc = require('swagger-jsdoc')
+const swaggerUi = require('swagger-ui-express')
 // const client = require('../db/redis')
 // const User = require('../models/user')
 const logger = require('../logger/logger')
 const {requestValidate} = require('../utils/payload-validate/request-validation')
 const {userAuthSchema} = require('../utils/validation-schema/user-auth-validate')
 const {registerUser, userLogin} = require('../services/business-logic')
+const { application } = require('express')
 // const {findOneByUsernameQuery, insertNewUserQuery, saveUserQuery, setJsonRedisQuery} = require('../models/helper')
 const router = new express.Router()
 
 
+// const options = {
+//     definition: {
+//       openapi: '3.0.0',
+//       info: {
+//         title: 'User Authentication API',
+//         version: '1.0.0',
+//       },
+//       servers:[
+//           {
+//               url: 'http://localhost:3005/'
+//           }
+//       ]
+//     },
+//     apis: ['./user-authentication.js'], // files containing annotations as above
+//   };
 
+// const swaggerSpec = swaggerJSDoc(options)
+
+swaggerDocument = require('../../swagger.json')
+router.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
+
+// /**
+//  *@swagger
+//  *  /user/register/:
+//  *      post:
+//  *          summary: this api is used to check if post method is working
+//  *          description: this api is used to check if post method is working
+//  *          requestBody:
+//  *              required:true
+//  *              content:
+//  *                  application/json
+//  *          responses: 
+//  *              201:
+//  *                  description: To test POST method
+//  * 
+//  */
 
 router.post('/user/register', async (req, res) => {
     logger.info('register user and validate request route start.')

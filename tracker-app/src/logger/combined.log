@@ -227,3 +227,51 @@
 2022-02-15T11:37:58.021Z warn: 	res send to user!
 2022-02-15T11:57:02.292Z info: 	bulk message insert request start
 2022-02-15T11:57:02.334Z warn: 	validate request fail
+2022-02-16T07:09:36.268Z info: 	bulk message insert request start
+2022-02-16T07:09:36.299Z info: 	start insert business logic
+2022-02-16T07:09:36.300Z info: 	formate body array for adding requestId
+2022-02-16T07:09:36.302Z info: 	inserting in db
+2022-02-16T07:09:36.352Z info: 	request ended res sent
+2022-02-16T07:10:03.471Z info: 	bulk message insert request start
+2022-02-16T07:10:03.478Z info: 	start insert business logic
+2022-02-16T07:10:03.479Z info: 	formate body array for adding requestId
+2022-02-16T07:10:03.480Z info: 	inserting in db
+2022-02-16T07:10:03.499Z info: 	request ended res sent
+2022-02-16T07:10:18.954Z info: 	bulk message insert request start
+2022-02-16T07:10:18.957Z info: 	start insert business logic
+2022-02-16T07:10:18.958Z info: 	formate body array for adding requestId
+2022-02-16T07:10:18.958Z info: 	inserting in db
+2022-02-16T07:10:18.974Z info: 	request ended res sent
+2022-02-16T07:10:26.484Z info: 	bulk message insert request start
+2022-02-16T07:10:26.489Z info: 	start insert business logic
+2022-02-16T07:10:26.489Z info: 	formate body array for adding requestId
+2022-02-16T07:10:26.490Z info: 	inserting in db
+2022-02-16T07:10:26.518Z info: 	request ended res sent
+2022-02-16T07:12:06.412Z info: 	bulk message insert request start
+2022-02-16T07:12:06.442Z warn: 	validate request fail
+2022-02-16T07:21:30.517Z info: 	search message request start
+2022-02-16T07:21:30.545Z info: 	returning success msg
+2022-02-16T07:21:30.546Z info: 	request ended res sent
+2022-02-16T07:23:02.212Z info: 	search message request start
+2022-02-16T07:23:02.213Z warn: 	Search Field Required!
+2022-02-16T07:23:02.213Z warn: 	res send to user!
+2022-02-16T07:23:37.156Z info: 	search message request start
+2022-02-16T07:23:37.159Z warn: 	No such message in db
+2022-02-16T07:23:37.160Z warn: 	res send to user!
+2022-02-16T07:27:21.002Z info: 	search message request start
+2022-02-16T07:27:21.004Z info: 	formating from and to date
+2022-02-16T07:27:21.014Z warn: 	No such message in db!
+2022-02-16T07:27:21.017Z warn: 	res send to user!
+2022-02-16T07:27:34.198Z info: 	search message request start
+2022-02-16T07:27:34.200Z info: 	formating from and to date
+2022-02-16T07:27:34.203Z info: 	returning success msg
+2022-02-16T07:27:34.204Z info: 	request ended res sent
+2022-02-16T07:28:10.065Z info: 	search message request start
+2022-02-16T07:28:10.066Z info: 	formating from and to date
+2022-02-16T07:28:10.066Z warn: 	category and date required!
+2022-02-16T07:28:10.068Z warn: 	res send to user!
+2022-02-16T09:41:04.218Z info: 	bulk message insert request start
+2022-02-16T09:41:04.240Z info: 	start insert business logic
+2022-02-16T09:41:04.241Z info: 	formate body array for adding requestId
+2022-02-16T09:41:04.242Z info: 	inserting in db
+2022-02-16T09:41:04.281Z info: 	request ended res sent

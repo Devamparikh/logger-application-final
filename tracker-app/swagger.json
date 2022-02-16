@@ -1,0 +1,477 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Tracker-message-data",
+      "version": "1.0",
+      "summary": "this api is used to check if post method is working to insert bulk message",
+      "description": "this api is used to check if post method is working to insert bulk message"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:3004",
+        "description": "localhost:3004"
+      }
+    ],
+    "paths": {
+      "/data-tracker": {
+        "post": {
+          "summary": "Create New User",
+          "operationId": "post-user",
+          "responses": {
+            "201": {
+              "description": "User Created",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "description": "",
+                    "type": "object",
+                    "properties": {
+                      "result": {
+                        "type": "object",
+                        "properties": {
+                          "userId": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "userMessage": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "category": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "createdTime": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "_id": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "__v": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "userId",
+                          "userMessage",
+                          "category",
+                          "createdTime",
+                          "_id",
+                          "__v"
+                        ]
+                      },
+                      "ok": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "result",
+                      "ok"
+                    ],
+                    "x-examples": {
+                      "example-1": {
+                        "result": {
+                          "userId": "620c9fd746b790a687fbd739",
+                          "userMessage": "u doin",
+                          "category": "Direct",
+                          "createdTime": "2022-02-16T07:02:49.050Z",
+                          "_id": "620ca362b86375279878cd52",
+                          "__v": 0
+                        },
+                        "ok": true
+                      }
+                    }
+                  },
+                  "examples": {}
+                }
+              }
+            },
+            "400": {
+              "description": "Missing Required Information",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "description": "",
+                    "type": "object",
+                    "properties": {
+                      "error": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "ok": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "error",
+                      "ok"
+                    ],
+                    "x-examples": {
+                      "example-1": {
+                        "error": "\"[1].category\" is required",
+                        "ok": false
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "401": {
+              "description": "Unauthorized",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "description": "",
+                    "type": "object",
+                    "properties": {
+                      "error": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "error"
+                    ],
+                    "x-examples": {
+                      "example-1": {
+                        "error": "Please authenticate."
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "description": "",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "userMessage",
+                      "category"
+                    ],
+                    "properties": {
+                      "userMessage": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "category": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  },
+                  "x-examples": {
+                    "example-1": [
+                      {
+                        "userMessage": "how u doin",
+                        "category": "Direct"
+                      }
+                    ]
+                  }
+                },
+                "examples": {}
+              }
+            },
+            "description": "Post the necessary fields for the API to create a new messages."
+          },
+          "description": "insert bulk data",
+          "parameters": [
+            {
+              "schema": {
+                "type": "string"
+              },
+              "in": "header",
+              "name": "Authorization",
+              "description": "Authorization"
+            }
+          ]
+        },
+        "parameters": []
+      },
+      "/data-tracker/searchmsg": {
+        "get": {
+          "summary": "Search by text",
+          "tags": [],
+          "responses": {
+            "200": {
+              "description": "OK",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "description": "",
+                    "type": "object",
+                    "properties": {
+                      "message": {
+                        "type": "array",
+                        "uniqueItems": true,
+                        "minItems": 1,
+                        "items": {
+                          "required": [
+                            "_id",
+                            "userMessage"
+                          ],
+                          "properties": {
+                            "_id": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "userMessage": {
+                              "type": "string",
+                              "minLength": 1
+                            }
+                          }
+                        }
+                      },
+                      "ok": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "message",
+                      "ok"
+                    ],
+                    "x-examples": {
+                      "example-1": {
+                        "message": [
+                          {
+                            "_id": "62050cd20bb40c665c2dbf69",
+                            "userMessage": "hieee world"
+                          },
+                          {
+                            "_id": "6205de7ad87b328b57baea7e",
+                            "userMessage": "hieee world"
+                          },
+                          {
+                            "_id": "6205de7ad87b328b57baea80",
+                            "userMessage": "hieee world"
+                          },
+                          {
+                            "_id": "6205de7ad87b328b57baea82",
+                            "userMessage": "hi world"
+                          },
+                          {
+                            "_id": "6205de7ed87b328b57baea87",
+                            "userMessage": "hieee world"
+                          }
+                        ],
+                        "ok": true
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Bad Request",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "description": "",
+                    "type": "object",
+                    "properties": {
+                      "message": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "ok": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "message",
+                      "ok"
+                    ],
+                    "x-examples": {
+                      "example-1": {
+                        "message": "Search Field Required!",
+                        "ok": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "operationId": "get-data-tracker-searchmsg",
+          "description": "get search message",
+          "parameters": [
+            {
+              "schema": {
+                "type": "string"
+              },
+              "in": "header",
+              "name": "Authorization"
+            },
+            {
+              "schema": {
+                "type": "string"
+              },
+              "in": "query",
+              "name": "searchMsg"
+            }
+          ]
+        }
+      },
+      "/data-tracker/category": {
+        "get": {
+          "summary": "Search by category and date",
+          "tags": [],
+          "responses": {
+            "200": {
+              "description": "OK",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "description": "",
+                    "type": "object",
+                    "properties": {
+                      "message": {
+                        "type": "number"
+                      },
+                      "ok": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "message",
+                      "ok"
+                    ],
+                    "x-examples": {
+                      "example-1": {
+                        "message": 1,
+                        "ok": true
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Bad Request",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "description": "",
+                    "type": "object",
+                    "properties": {
+                      "message": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "ok": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "message",
+                      "ok"
+                    ],
+                    "x-examples": {
+                      "example-1": {
+                        "message": "category and date required!",
+                        "ok": false
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "401": {
+              "description": "Unauthorized"
+            }
+          },
+          "operationId": "get-data-tracker-category",
+          "description": "get search msg by category and date",
+          "parameters": [
+            {
+              "schema": {
+                "type": "string"
+              },
+              "in": "header",
+              "name": "Authorization"
+            },
+            {
+              "schema": {
+                "type": "string"
+              },
+              "in": "query",
+              "name": "category"
+            },
+            {
+              "schema": {
+                "type": "string"
+              },
+              "in": "query",
+              "name": "date"
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "User": {
+          "title": "User",
+          "type": "object",
+          "description": "",
+          "examples": [
+            {
+              "id": 142,
+              "firstName": "Alice",
+              "lastName": "Smith",
+              "email": "alice.smith@gmail.com",
+              "dateOfBirth": "1997-10-31",
+              "emailVerified": true,
+              "signUpDate": "2019-08-24"
+            }
+          ],
+          "properties": {
+            "id": {
+              "type": "integer",
+              "description": "Unique identifier for the given user."
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string",
+              "format": "email"
+            },
+            "dateOfBirth": {
+              "type": "string",
+              "format": "date",
+              "example": "1997-10-31"
+            },
+            "emailVerified": {
+              "type": "boolean",
+              "description": "Set to true if the user's email has been verified."
+            },
+            "createDate": {
+              "type": "string",
+              "format": "date",
+              "description": "The date that the user was created."
+            }
+          },
+          "required": [
+            "id",
+            "firstName",
+            "lastName",
+            "email",
+            "emailVerified"
+          ]
+        }
+      }
+    }
+  }

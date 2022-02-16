@@ -1,0 +1,169 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Pusher",
+      "version": "1.0",
+      "summary": "check if post method is working if messages are send",
+      "description": "check if post method is working if messages are send"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:3006",
+        "description": "localhost:3006"
+      }
+    ],
+    "paths": {
+      "/data-pusher": {
+        "post": {
+          "summary": "Push message",
+          "operationId": "post-user",
+          "responses": {
+            "200": {
+              "description": "User Created",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "description": "",
+                    "type": "object",
+                    "properties": {
+                      "message": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "ok": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "message",
+                      "ok"
+                    ],
+                    "x-examples": {
+                      "example-1": {
+                        "message": "data send to queue successful.",
+                        "ok": true
+                      }
+                    }
+                  },
+                  "examples": {}
+                }
+              }
+            },
+            "400": {
+              "description": "Missing Required Information",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {}
+                  }
+                }
+              }
+            }
+          },
+          "description": "push data to message queue",
+          "parameters": [
+            {
+              "schema": {
+                "type": "string"
+              },
+              "in": "header",
+              "name": "Authorization"
+            }
+          ],
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "description": "",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "message"
+                    ],
+                    "properties": {
+                      "message": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  },
+                  "x-examples": {
+                    "example-1": [
+                      {
+                        "message": "hello8"
+                      },
+                      {
+                        "message": "hello9"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": []
+      }
+    },
+    "components": {
+      "schemas": {
+        "User": {
+          "title": "User",
+          "type": "object",
+          "description": "",
+          "examples": [
+            {
+              "id": 142,
+              "firstName": "Alice",
+              "lastName": "Smith",
+              "email": "alice.smith@gmail.com",
+              "dateOfBirth": "1997-10-31",
+              "emailVerified": true,
+              "signUpDate": "2019-08-24"
+            }
+          ],
+          "properties": {
+            "id": {
+              "type": "integer",
+              "description": "Unique identifier for the given user."
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string",
+              "format": "email"
+            },
+            "dateOfBirth": {
+              "type": "string",
+              "format": "date",
+              "example": "1997-10-31"
+            },
+            "emailVerified": {
+              "type": "boolean",
+              "description": "Set to true if the user's email has been verified."
+            },
+            "createDate": {
+              "type": "string",
+              "format": "date",
+              "description": "The date that the user was created."
+            }
+          },
+          "required": [
+            "id",
+            "firstName",
+            "lastName",
+            "email",
+            "emailVerified"
+          ]
+        }
+      }
+    }
+  }

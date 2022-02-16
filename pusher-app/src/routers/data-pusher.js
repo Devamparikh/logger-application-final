@@ -2,6 +2,8 @@ const express = require('express')
 const amqp = require('amqplib')
 // const {createClient} = require('redis');
 const client = require('../db/redis')
+const swaggerJSDoc = require('swagger-jsdoc')
+const swaggerUi = require('swagger-ui-express')
 const router = new express.Router()
 // const Message = require('../src/models/message')
 const auth = require('../middleware/auth')
@@ -11,6 +13,8 @@ const {bulkMessagePushSchema} = require('../utils/validation-schema/data-pusher-
 const {pushMessage} = require('../services/business-logic')
 
 
+swaggerDocument = require('../../swagger.json')
+router.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 
 router.post('/data-pusher', auth, async (req, res) => {
     try {

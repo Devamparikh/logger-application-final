@@ -1,0 +1,318 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Register User",
+      "version": "1.0",
+      "summary": "this api is used to check if post method is working",
+      "description": "this api is used to check if post method is working"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:3005"
+      }
+    ],
+    "paths": {
+      "/user/register": {
+        "parameters": [],
+        "post": {
+          "summary": "Register user",
+          "operationId": "post-user-register",
+          "responses": {
+            "201": {
+              "description": "Created",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "description": "",
+                    "type": "object",
+                    "properties": {
+                      "user": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "ok": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "user",
+                      "ok"
+                    ],
+                    "x-examples": {
+                      "example-1": {
+                        "user": "620c925b1976fe32550e1896",
+                        "ok": true
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "409": {
+              "description": "Conflict",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "description": "",
+                    "type": "object",
+                    "properties": {
+                      "error": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "ok": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "error",
+                      "ok"
+                    ],
+                    "x-examples": {
+                      "example-1": {
+                        "error": "username already present in database",
+                        "ok": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "description": "Create a new user.",
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "description": "",
+                  "type": "object",
+                  "properties": {
+                    "username": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "password": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "username",
+                    "password"
+                  ],
+                  "x-examples": {
+                    "example-1": {
+                      "username": "devamccd",
+                      "password": "fsfsgtr"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Post the necessary fields for the API to create a new user."
+          }
+        }
+      },
+      "/user/login": {
+        "post": {
+          "summary": "Login user",
+          "operationId": "post-user-login",
+          "responses": {
+            "200": {
+              "description": "OK",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "description": "",
+                    "type": "object",
+                    "properties": {
+                      "user": {
+                        "type": "object",
+                        "properties": {
+                          "_id": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "username": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "password": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "createdAt": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "updatedAt": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "__v": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "_id",
+                          "username",
+                          "password",
+                          "createdAt",
+                          "updatedAt",
+                          "__v"
+                        ]
+                      },
+                      "token": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "ok": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "user",
+                      "token",
+                      "ok"
+                    ],
+                    "x-examples": {
+                      "example-1": {
+                        "user": {
+                          "_id": "620c9fd746b790a687fbd739",
+                          "username": "devamparikh1",
+                          "password": "$2a$08$qIj63EaxAvNw2Xn/mBFR1Oyldu4K7fjwi1toUQaBMlnCBP1loRt.O",
+                          "createdAt": "2022-02-16T06:55:19.061Z",
+                          "updatedAt": "2022-02-16T06:55:19.061Z",
+                          "__v": 0
+                        },
+                        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjBjOWZkNzQ2Yjc5MGE2ODdmYmQ3MzkiLCJpYXQiOjE2NDQ5OTQ1NDR9.UVNRfMv8yvvb2oq-sTayH9GdbEygskAsyGjbM54QK6A",
+                        "ok": true
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Bad Request",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "description": "",
+                    "type": "object",
+                    "properties": {
+                      "error": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "ok": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "error",
+                      "ok"
+                    ],
+                    "x-examples": {
+                      "example-1": {
+                        "error": "\"password\" is required",
+                        "ok": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "description": "check if user can login with correct username and password",
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "description": "",
+                  "type": "object",
+                  "properties": {
+                    "username": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "password": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "username",
+                    "password"
+                  ],
+                  "x-examples": {
+                    "example-1": {
+                      "username": "devamparikh1",
+                      "password": "devam1516"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "User": {
+          "title": "User",
+          "type": "object",
+          "description": "",
+          "examples": [
+            {
+              "id": 142,
+              "firstName": "Alice",
+              "lastName": "Smith",
+              "email": "alice.smith@gmail.com",
+              "dateOfBirth": "1997-10-31",
+              "emailVerified": true,
+              "signUpDate": "2019-08-24"
+            }
+          ],
+          "properties": {
+            "id": {
+              "type": "integer",
+              "description": "Unique identifier for the given user."
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string",
+              "format": "email"
+            },
+            "dateOfBirth": {
+              "type": "string",
+              "format": "date",
+              "example": "1997-10-31"
+            },
+            "emailVerified": {
+              "type": "boolean",
+              "description": "Set to true if the user's email has been verified."
+            },
+            "createDate": {
+              "type": "string",
+              "format": "date",
+              "description": "The date that the user was created."
+            }
+          },
+          "required": [
+            "id",
+            "firstName",
+            "lastName",
+            "email",
+            "emailVerified"
+          ]
+        }
+      }
+    }
+  }

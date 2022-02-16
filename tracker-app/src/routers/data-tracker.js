@@ -1,4 +1,6 @@
 const express = require('express')
+const swaggerJSDoc = require('swagger-jsdoc')
+const swaggerUi = require('swagger-ui-express')
 const router = new express.Router()
 // const Message = require('../models/message')
 const logger = require('../logger/logger')
@@ -8,6 +10,9 @@ const {insertBulkMessage, searchTextMessage, searchByCategoryAndDate} = require(
 const {requestValidate} = require('../utils/payload-validation/request-validation')
 const {bulkMessageSchema} = require('../utils/validation-schema/data-tracker-validate')
 
+
+swaggerDocument = require('../../swagger.json')
+router.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 
 
 router.post('/data-tracker', auth, async (req, res) => {

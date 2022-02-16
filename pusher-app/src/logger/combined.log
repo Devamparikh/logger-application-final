@@ -349,3 +349,17 @@
 2022-02-15T11:57:02.125Z info: 	formatting msg array!
 2022-02-15T11:57:02.128Z info: 	asserting Queue for msg array!
 2022-02-15T11:57:02.168Z info: 	data send to queue successful.
+2022-02-16T07:35:12.667Z info: 	data pusher request start
+2022-02-16T07:35:12.689Z info: 	connecting to amqp
+2022-02-16T07:35:12.750Z info: 	taking random number
+2022-02-16T07:35:12.758Z info: 	formatting msg array!
+2022-02-16T07:35:12.772Z info: 	asserting Queue for msg array!
+2022-02-16T07:35:12.823Z info: 	data send to queue successful.
+2022-02-16T07:36:13.967Z info: 	data pusher request start
+2022-02-16T07:36:13.982Z warn: 	validate request fail
+2022-02-16T10:05:23.267Z info: 	data pusher request start
+2022-02-16T10:05:23.281Z info: 	connecting to amqp
+2022-02-16T10:05:23.311Z info: 	taking random number
+2022-02-16T10:05:23.312Z info: 	formatting msg array!
+2022-02-16T10:05:23.314Z info: 	asserting Queue for msg array!
+2022-02-16T10:05:23.350Z info: 	data send to queue successful.
