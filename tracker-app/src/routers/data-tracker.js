@@ -16,6 +16,8 @@ router.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 
 
 router.post('/data-tracker', auth, async (req, res) => {
+    console.log(req.header("Authorization"));
+//    console.log("header: ", req.headers.Authorization); 
     logger.info('bulk message insert request start')
     const reqValidateResult = requestValidate(req.body, bulkMessageSchema)
 

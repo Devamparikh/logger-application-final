@@ -1,4 +1,4 @@
-function requestValidate(body, schema) {
+const requestValidate = (body, schema) => {
 
 const { error, value } = schema.validate(body);
 console.log("errir: ", error)

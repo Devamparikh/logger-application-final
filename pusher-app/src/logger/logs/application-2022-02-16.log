@@ -12,3 +12,22 @@
 2022-02-16T10:05:23.312Z info: 	formatting msg array!
 2022-02-16T10:05:23.314Z info: 	asserting Queue for msg array!
 2022-02-16T10:05:23.350Z info: 	data send to queue successful.
+2022-02-16T12:29:53.258Z info: 	user login request start
+2022-02-16T12:29:53.530Z info: 	user: 
+2022-02-16T12:29:53.531Z info: 	 generate Auth Token
+2022-02-16T12:29:53.538Z info: 	token: 
+2022-02-16T12:29:53.544Z info: 	 end of request
+2022-02-16T12:29:53.684Z info: 	data pusher request start
+2022-02-16T12:29:53.704Z info: 	connecting to amqp
+2022-02-16T12:29:53.747Z info: 	taking random number
+2022-02-16T12:29:53.750Z info: 	formatting msg array!
+2022-02-16T12:29:53.761Z info: 	asserting Queue for msg array!
+2022-02-16T12:29:53.815Z info: 	data send to queue successful.
+2022-02-16T12:29:53.858Z info: 	data pusher request start
+2022-02-16T12:29:53.871Z warn: 	validate request fail
+2022-02-16T12:34:38.298Z info: 	data pusher request start
+2022-02-16T12:34:38.314Z info: 	connecting to amqp
+2022-02-16T12:34:38.366Z info: 	taking random number
+2022-02-16T12:34:38.367Z info: 	formatting msg array!
+2022-02-16T12:34:38.370Z info: 	asserting Queue for msg array!
+2022-02-16T12:34:38.410Z info: 	data send to queue successful.

@@ -1,0 +1,66 @@
+2022-02-17T04:04:16.156Z info: 	fetch from queue start!
+2022-02-17T04:04:16.166Z info: 	fetch from queue start!
+2022-02-17T04:04:16.242Z info: 	creating channel!
+2022-02-17T04:20:06.521Z info: 	fetch from queue start!
+2022-02-17T04:20:06.531Z info: 	fetch from queue start!
+2022-02-17T04:20:06.619Z info: 	creating channel!
+2022-02-17T04:20:06.622Z info: 	creating channel!
+2022-02-17T04:20:06.625Z info: 	assert Queue
+2022-02-17T04:20:06.629Z info: 	assert Queue
+2022-02-17T04:20:06.649Z info: 	msg from queue!
+2022-02-17T04:20:06.665Z info: 	creating body obj by checking condition to push to track api!
+2022-02-17T04:20:06.666Z info: 	condition false set category to direct
+2022-02-17T04:20:06.690Z info: 	msg from queue!
+2022-02-17T04:20:06.701Z info: 	creating body obj by checking condition to push to track api!
+2022-02-17T04:20:06.702Z info: 	condition false set category to direct
+2022-02-17T04:20:06.712Z info: 	making post request to track data api
+2022-02-17T04:20:06.722Z info: 	setting header!
+2022-02-17T04:20:06.723Z info: 	making post request using axios to track data api
+2022-02-17T04:20:06.743Z info: 	making post request to track data api
+2022-02-17T04:20:06.752Z info: 	setting header!
+2022-02-17T04:20:06.753Z info: 	making post request using axios to track data api
+2022-02-17T04:21:17.513Z info: 	fetch from queue start!
+2022-02-17T04:21:17.523Z info: 	fetch from queue start!
+2022-02-17T04:21:17.583Z info: 	creating channel!
+2022-02-17T04:21:17.587Z info: 	creating channel!
+2022-02-17T04:21:17.591Z info: 	assert Queue
+2022-02-17T04:21:17.595Z info: 	assert Queue
+2022-02-17T04:21:23.762Z info: 	fetch from queue start!
+2022-02-17T04:21:23.769Z info: 	fetch from queue start!
+2022-02-17T04:21:23.812Z info: 	creating channel!
+2022-02-17T04:21:23.815Z info: 	creating channel!
+2022-02-17T04:21:23.818Z info: 	assert Queue
+2022-02-17T04:21:23.821Z info: 	assert Queue
+2022-02-17T04:22:31.117Z info: 	fetch from queue start!
+2022-02-17T04:22:31.127Z info: 	fetch from queue start!
+2022-02-17T04:22:31.214Z info: 	creating channel!
+2022-02-17T04:22:31.218Z info: 	creating channel!
+2022-02-17T04:22:31.230Z info: 	assert Queue
+2022-02-17T04:22:31.242Z info: 	assert Queue
+2022-02-17T04:23:22.579Z info: 	fetch from queue start!
+2022-02-17T04:23:22.590Z info: 	fetch from queue start!
+2022-02-17T04:23:22.643Z info: 	creating channel!
+2022-02-17T04:23:22.648Z info: 	creating channel!
+2022-02-17T04:23:22.650Z info: 	assert Queue
+2022-02-17T04:23:22.653Z info: 	assert Queue
+2022-02-17T04:23:38.136Z info: 	fetch from queue start!
+2022-02-17T04:23:38.147Z info: 	fetch from queue start!
+2022-02-17T04:23:38.194Z info: 	creating channel!
+2022-02-17T04:23:38.198Z info: 	creating channel!
+2022-02-17T04:23:38.201Z info: 	assert Queue
+2022-02-17T04:23:38.204Z info: 	assert Queue
+2022-02-17T04:23:56.769Z info: 	fetch from queue start!
+2022-02-17T04:23:56.780Z info: 	fetch from queue start!
+2022-02-17T04:23:56.913Z info: 	creating channel!
+2022-02-17T04:23:56.917Z info: 	creating channel!
+2022-02-17T04:23:56.921Z info: 	assert Queue
+2022-02-17T04:23:56.932Z info: 	assert Queue
+2022-02-17T04:25:00.436Z info: 	fetch from queue start!
+2022-02-17T04:25:00.447Z info: 	fetch from queue start!
+2022-02-17T04:25:00.512Z info: 	creating channel!
+2022-02-17T04:26:04.998Z info: 	fetch from queue start!
+2022-02-17T04:26:05.008Z info: 	fetch from queue start!
+2022-02-17T04:26:05.088Z info: 	creating channel!
+2022-02-17T04:26:05.091Z info: 	creating channel!
+2022-02-17T04:26:05.094Z info: 	assert Queue
+2022-02-17T04:26:05.099Z info: 	assert Queue

@@ -2,7 +2,7 @@ const logger = require('../logger/logger')
 const User = require('../models/user')
 const {findOneByUsernameQuery, insertNewUserQuery, saveUserQuery, setJsonRedisQuery} = require('../models/helper')
 
-async function registerUser(req) {
+const registerUser = async(req) => {
     logger.info('checking if similar username exist in db')
         const findResult = await findOneByUsernameQuery(req.body.username)
         console.log(findResult);
@@ -27,7 +27,7 @@ async function registerUser(req) {
     return {user, undefined}
 }
 
-async function userLogin(req) {
+const userLogin = async (req) => {
     const user = await User.findByCredentials(req.body.username, req.body.password)
     logger.info("user: ", user)
     logger.info(' generate Auth Token')

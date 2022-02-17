@@ -3,7 +3,7 @@ const client = require('../db/redis')
 
 
 
-async function findOneByUsernameQuery(username, res) {
+const findOneByUsernameQuery = async(username, res) => {
     const userPresent = await User.findOne({username: username})
     console.log("userPresent: ", userPresent);
         if (userPresent !== null) {return false}
@@ -11,16 +11,16 @@ async function findOneByUsernameQuery(username, res) {
 }
 
 
-async function insertNewUserQuery(body) {
+const insertNewUserQuery = async(body) => {
     return await new User(body)
 }
 
-async function saveUserQuery(user) {
+const saveUserQuery = async (user) => {
     return await user.save()
 }
 
 
-async function setJsonRedisQuery(userAfterSave) {
+const setJsonRedisQuery = async(userAfterSave) => {
         const userKey = 'user_' + userAfterSave.username
         // console.log(userKey)
         await client.json.set(userKey, '.', { id:userAfterSave._id, username: userAfterSave.username, password: userAfterSave.password, requestCounter: 0 });

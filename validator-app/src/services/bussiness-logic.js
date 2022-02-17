@@ -13,7 +13,7 @@ logger.info('fetch from queue start!')
     var queue = 'dataValidator';
     
     
-    function consumer(connection) {
+    const consumer = async(connection) => {
 logger.info('creating channel!')
 
       var ok = connection.createChannel(on_open);
@@ -22,7 +22,7 @@ logger.info('creating channel!')
 logger.info('assert Queue')
 
         channel.assertQueue(queue);
-        channel.consume(queue, function(message) {
+        channel.consume(queue, (message) => {
           if (message !== null) {
 
             console.log(message.content.toString());
@@ -41,7 +41,7 @@ logger.info('msg from queue!', input)
     
 
 require('amqplib/callback_api')
-.connect('amqp://localhost', function(err, connection) {
+.connect('amqp://localhost',(err, connection) => {
   if (err != null) bail(err);
   consumer(connection);
 });
@@ -57,14 +57,14 @@ require('amqplib/callback_api')
 
 
 
-async function dataPusher(input) {
+const dataPusher = async(input) => {
 
 bodyObj= []
 
 
 
 
-let bodyObjPromise = new Promise(function(Resolve, Reject) {
+let bodyObjPromise = new Promise((Resolve, Reject) => {
     logger.info('creating body obj by checking condition to push to track api!')
 
     if ((input[0].randomNumber % 10) == 0) {
@@ -111,7 +111,7 @@ logger.info('condition false set category to direct')
 
 
 bodyObjPromise.then(
-    function(value) {
+    (value) => {
 logger.info('making post request to track data api')
         makePostRequest('http://127.0.0.1:3004/data-tracker', value, input);
     }
@@ -121,7 +121,7 @@ logger.info('making post request to track data api')
 }
 
 
-async function makePostRequest(path, bodyObj, input) {
+const makePostRequest = async(path, bodyObj, input) => {
 
 console.log("bodyobj: ", bodyObj);
 logger.info('setting header!')

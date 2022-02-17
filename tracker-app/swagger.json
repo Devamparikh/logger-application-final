@@ -191,7 +191,9 @@
               },
               "in": "header",
               "name": "Authorization",
-              "description": "Authorization"
+              "description": "Authorization",
+              "required": true,
+              "type": "string"
             }
           ]
         },

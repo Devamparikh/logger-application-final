@@ -4,7 +4,7 @@ const Message = require('../models/message')
 const {insertManyMessage, searchTextMessageModel, searchCategoryAndDateModel} = require('../models/helper')
 
 
-async function insertBulkMessage(req) {
+const insertBulkMessage = async(req) => {
     logger.info('formate body array for adding requestId')
     req.body.forEach(element => {
         element.userId = req.user._id,
@@ -60,7 +60,7 @@ const searchByCategoryAndDate = async (req) => {
 }
 
 
-async function searchTextMessage(req) {
+const searchTextMessage = async(req) => {
     const searchMsg = req.query.searchMsg
 
     if(!searchMsg){

@@ -1,0 +1,41 @@
+2022-02-17T04:02:54.693Z info: 	user login request start
+2022-02-17T04:02:54.920Z error: 	login user fail Unable to login.
+2022-02-17T04:03:00.271Z info: 	user login request start
+2022-02-17T04:03:00.434Z error: 	login user fail Unable to login.
+2022-02-17T04:06:06.128Z info: 	data pusher request start
+2022-02-17T04:06:06.182Z info: 	connecting to amqp
+2022-02-17T04:06:06.213Z info: 	taking random number
+2022-02-17T04:06:06.216Z info: 	formatting msg array!
+2022-02-17T04:06:06.221Z info: 	asserting Queue for msg array!
+2022-02-17T04:06:06.261Z info: 	data send to queue successful.
+2022-02-17T04:07:52.115Z info: 	user login request start
+2022-02-17T04:07:52.327Z error: 	login user fail Unable to login.
+2022-02-17T04:08:53.084Z info: 	user login request start
+2022-02-17T04:08:53.277Z error: 	login user fail Unable to login.
+2022-02-17T04:09:54.568Z info: 	user login request start
+2022-02-17T04:09:54.748Z error: 	login user fail Unable to login.
+2022-02-17T04:14:51.457Z info: 	user login request start
+2022-02-17T04:14:51.651Z error: 	login user fail Unable to login.
+2022-02-17T04:15:29.965Z info: 	user login request start
+2022-02-17T04:15:30.127Z info: 	user: 
+2022-02-17T04:15:30.128Z info: 	 generate Auth Token
+2022-02-17T04:15:30.132Z info: 	token: 
+2022-02-17T04:15:30.137Z info: 	 end of request
+2022-02-17T04:16:09.186Z info: 	user login request start
+2022-02-17T04:16:09.388Z info: 	user: 
+2022-02-17T04:16:09.388Z info: 	 generate Auth Token
+2022-02-17T04:16:09.392Z info: 	token: 
+2022-02-17T04:16:09.397Z info: 	 end of request
+2022-02-17T04:16:53.364Z info: 	user login request start
+2022-02-17T04:16:53.538Z info: 	user: 
+2022-02-17T04:16:53.539Z info: 	 generate Auth Token
+2022-02-17T04:16:53.545Z info: 	token: 
+2022-02-17T04:16:53.548Z info: 	 end of request
+2022-02-17T04:16:53.621Z info: 	data pusher request start
+2022-02-17T04:16:53.639Z info: 	connecting to amqp
+2022-02-17T04:16:53.686Z info: 	taking random number
+2022-02-17T04:16:53.687Z info: 	formatting msg array!
+2022-02-17T04:16:53.695Z info: 	asserting Queue for msg array!
+2022-02-17T04:16:53.751Z info: 	data send to queue successful.
+2022-02-17T04:16:53.778Z info: 	data pusher request start
+2022-02-17T04:16:53.789Z warn: 	validate request fail

@@ -2,14 +2,14 @@ const User = require('./user')
 const Message = require('./message')
 const client = require('../db/redis')
 
-async function insertManyMessage(req) {
+const insertManyMessage = async(req) => {
     console.log(req.body);
     const insertResult = await Message.insertMany(req.body)
     return insertResult
     // console.log(insertResult);
 }
 
-async function searchTextMessageModel(searchMsg) {
+const searchTextMessageModel = async(searchMsg) => {
     const message = await Message.find({ "userMessage" : { $regex: searchMsg } }, {userMessage: 1})
     return message
     // console.log(insertResult);
